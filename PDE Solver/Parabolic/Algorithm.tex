@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{dsfont}
+\usepackage{mathtools}
+
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+
+\algnewcommand{\Local}{\State\textbf{local variables: }}
+\newcommand{\minbox}[2]{\mathmakebox[\ifdim#1<\width\width\else#1\fi]{#2}}
+\newcommand{\Let}[2]{\State $ \minbox{1em}{#1} \gets #2 $}
+
+\algblockdefx[Class]{Class}{EndClass}[1]{}
+
+\begin{document}
+	\begin{algorithm}
+		\caption{Forward Method}
+		\label{al1}
+		\begin{algorithmic}[1]
+			\Class{BoundaryConditions}{$ c_x $}
+			\EndClass
+		\end{algorithmic}
+	\end{algorithm}
+
+\end{document}
