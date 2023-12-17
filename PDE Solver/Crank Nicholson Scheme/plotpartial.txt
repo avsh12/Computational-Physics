@@ -1,0 +1,28 @@
+set grid
+unset key; unset border; unset tics;
+#set pm3d
+set size ratio -1
+
+set title font "Roboto, 18" textcolor "#595959" 'Heat Diffusion using Crank-Nicolson method'
+set xlabel font "Roboto, 12" textcolor "#595959" 'x'
+set ylabel offset -2 font "Roboto,12" textcolor "#595959" 'y'
+
+set xtics tc "#595959" font "Roboto, 12"
+set ytics tc "#595959" font "Roboto, 12"
+
+#unset palette
+set palette defined (0 "blue", 0.5 "yellow", 1 "red")
+set cbrange[0:0.00001]
+set pm3d map
+
+splot '2dDiffusionCrankData.txt' index 0 using 1:2:3
+#splot '2dDiffusionForwardData.txt' using 1:2:3
+
+#n=1;
+#while(n<=1000){
+#   n=n+1
+#   splot '2dDiffusionForwardData.txt' index n using 1:2:3 #w l notitle lc "#662121"
+#   pause 1.0e-8
+#   }
+
+
