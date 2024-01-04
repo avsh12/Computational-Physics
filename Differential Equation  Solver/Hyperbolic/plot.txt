@@ -1,0 +1,29 @@
+set grid
+#set pm3d
+set contour
+set title 'Derivatives'
+set xlabel 'x'
+set ylabel 'Derivative'
+
+
+#set xrange [0:20]
+#set yrange [0:20]
+#set zrange [0:1]
+
+set palette defined (-0.1 '#0033cc', 0.1 '#ff3300')
+splot 'HyperbolicData.txt' using 1:2:3 w l lc pal notitle # lc "blue"
+
+set term png size 2000,2000
+set output "advection.png"
+replot
+
+set term wxt
+set output
+
+#replot 'PDEAData.txt' using 1:2:3 w l notitle lc "red"
+
+#plot 'PDEData.txt' using 1:2 with line lc "red" title "Analytic"
+#replot 'PDEData.txt' using 1:3 with line lc "blue" title "Forward"
+#replot 'PDEData.txt' using 1:4 with line lc "green" title "Backward"
+#replot 'PDEData.txt' using 1:50 with line lc "black" title "Central"
+
