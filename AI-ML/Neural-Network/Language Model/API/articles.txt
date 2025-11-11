@@ -1,0 +1,766 @@
+categorized_text = {
+    "Generative AI": [
+        (1, "Align Your Flow: Scaling Continuous-Time Flow Map Distillation"),
+        (8, "Task-Oriented Human Grasp Synthesis via Context- and Task-Aware Diffusers"),
+        (14, "VoiceNoNG: Robust High-Quality Speech Editing Model without Hallucinations"),
+        (15, "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control"),
+        (18, "Generative Detail Enhancement for Physically Based Materials"),
+        (20, "Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow"),
+        (21, "GenMol: A Drug Discovery Generalist with Discrete Diffusion"),
+        (23, "Score-based Diffusion Models in Function Space"),
+        (29, "Make It Count: Text-to-Image Generation with an Accurate Number of Objects"),
+        (36, "Score Distillation Sampling for Audio: Source Separation, Synthesis, and Beyond"),
+        (42, "Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models"),
+        (43, "Add-it: Training-Free Object Insertion in Images via Pretrained Diffusion Models"),
+        (46, "Multi-student Diffusion Distillation for Better One-step Generators"),
+        (47, "LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models"),
+        (50, "CorrFill: Enhancing Faithfulness in Reference-based Inpainting with Correspondence Guidance in Diffusion Models")
+    ],
+    "Robotics & Autonomous Systems": [
+        (2, "Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training"),
+        (4, "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning"),
+        (7, "Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail"),
+        (9, "Isaac Lab: A GPU Accelerated Simulation Framework For Multi-Modal Robot Learning"),
+        (10, "Learning to Plan & Schedule with Reinforcement-Learned Bimanual Robot Skills"),
+        (30, "GRS: Generating robotic simulation tasks from real-world images"),
+        (45, "NVIDIA Isaac GR00T N1: An Open Foundation Model for Humanoid Robots"),
+        (53, "scene_synthesizer: A Python Library for Procedural Scene Generation in Robot Manipulation")
+    ],
+    "Large Language Models (LLMs) & Visual Language Models (VLMs)": [
+        (22, "Helix Parallelism: Rethinking Sharding Strategies for Interactive Multi-Million-Token LLM Decoding"),
+        (37, "LongVILA: Scaling Long-Context Visual Language Models for Long Videos"),
+        (38, "Hymba: A Hybrid-head Architecture for Small Language Models"),
+        (41, "Audio Large Language Models Can Be Descriptive Speech Quality Evaluators"),
+        (44, "Towards Neural Scaling Laws for Time Series Foundation Models")
+    ],
+    "Scientific Computing & Forecasting": [
+        (3, "Elucidated Rolling Diffusion Models for Probabilistic Weather Forecasting"),
+        (12, "Huge ensembles–Part 1: Design of ensemble weather forecasts using spherical Fourier neural operators"),
+        (13, "Huge ensembles – Part 2: Properties of a huge ensemble of hindcasts generated with spherical Fourier neural operators"),
+        (19, "FourCastNet 3: A geometric approach to probabilistic machine-learning weather forecasting at scale")
+    ],
+    "Computer Vision & Image/Video Processing (Non-Generative)": [
+        (16, "Assessing Learned Models for Phase-only Hologram Compression"),
+        (26, "Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds"),
+        (27, "TriTex: Learning Texture from a Single Mesh via Triplane Semantic Features"),
+        (28, "RL-RC-DoT: A Block-level RL agent for Task-Aware Video Compression"),
+        (48, "Spatio-Temporal Context Prompting for Zero-Shot Action Detection"),
+        (49, "Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation")
+    ],
+    "Neural Network Architectures & Foundations": [
+        (5, "Attention on the Sphere"),
+        (31, "MambaVision: A Hybrid Mamba-Transformer Vision Backbone"),
+        (39, "Gated Delta Networks: Improving Mamba2 with Delta Rule")
+    ],
+    "Reinforcement Learning (Algorithms & Theory)": [
+        (17, "Fly, Fail, Fix: Iterative Game Repair with Reinforcement Learning and Large Multimodal Models"),
+        (40, "Latent Action Pretraining from Videos"),
+        (51, "SoftTreeMax: Policy Gradient via tree expansion")
+    ],
+    "Hardware Design & Verification (AI-Assisted)": [
+        (11, "FVDebug: An LLM-Driven Debugging Assistant for Automated Root Cause Analysis of Formal Verification Failures"),
+        (24, "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems"),
+        (25, "AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL"),
+        (32, "Marco: Configurable Graph-Based Task Solving and Multi-AI Agents Framework for Hardware Design")
+    ],
+    "ML Systems & Infrastructure": [
+        (33, "Beyond the Buzz: A Pragmatic Take on Inference Disaggregation"),
+        (34, "SLIM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression")
+    ],
+    "Specialized Applications": [
+        (35, "Design of a Standard-Compliant Real-Time Neural Receiver for 5G NR"),
+        (52, "eXtended Reality and Artificial Intelligence in Medicine and Rehabilitation")
+    ],
+    "Quantum Computing": [
+        (6, "Augmenting Simulated Noisy Quantum Data Collection by Orders of Magnitude Using Pre-Trajectory Sampling with Batched Execution")
+    ]
+}
+
+categorized_text = {
+    "Generative Models": [
+        (54, "Energy-Based Diffusion Language Models for Text Generation"),
+        (56, "Truncated Consistency Models"),
+        (58, "Directed Graph Generation with Heat Kernels"),
+        (63, "FactorSim: Generative Simulation via Factorized Representation"),
+        (65, "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models"),
+        (66, "Diffusion-Reward Adversarial Imitation Learning"),
+        (82, "DiffiT: Diffusion Vision Transformers for Image Generation"),
+        (87, "Kilometer-Scale Convection Allowing Model Emulation using Generative Diffusion Modeling"),
+        (89, "Align Your Steps: Optimizing Sampling Schedules in Diffusion Models"),
+        (91, "DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents"),
+        (96, "Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models"),
+        (97, "Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata"),
+        (105, "WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space"),
+        (106, "LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis")
+    ],
+    "Large Language Models (LLMs) & Text": [
+        (54, "Energy-Based Diffusion Language Models for Text Generation"),
+        (69, "DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent"),
+        (74, "Guiding Long-Horizon Task and Motion Planning with Vision Language Models"),
+        (75, "Open-World Task and Motion Planning via Vision-Language Model Inferred Constraints"),
+        (85, "LLM Pruning and Distillation in Practice: The Minitron Approach"),
+        (86, "VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool"),
+        (88, "GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators"),
+        (95, "Large Language Model (LLM) for Standard Cell Layout Design Optimization"),
+        (98, "Nemotron-4 340B"),
+        (99, "An Empirical Study of Mamba-based Language Models"),
+        (103, "Large Language Models are Efficient Learners of Noise-Robust Speech Recognition"),
+        (104, "It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition")
+    ],
+    "Robotics & Control": [
+        (59, "Cosmos World Foundation Model Platform for Physical AI"),
+        (66, "Diffusion-Reward Adversarial Imitation Learning"),
+        (67, "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting"),
+        (70, "Differentiable GPU-Parallelized Task and Motion Planning"),
+        (71, "SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation"),
+        (72, "NOD-TAMP: Generalizable Long-Horizon Planning with Neural Object Descriptors"),
+        (73, "SkillGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment"),
+        (74, "Guiding Long-Horizon Task and Motion Planning with Vision Language Models"),
+        (75, "Open-World Task and Motion Planning via Vision-Language Model Inferred Constraints"),
+        (76, "HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation"),
+        (79, "Interventional Data Generation for Robust and Data-Efficient Robot Imitation Learning"),
+        (80, "DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability"),
+        (83, "Learning to Move Like Professional Counter-Strike Players")
+    ],
+    "Computer Vision & 3D/4D Synthesis": [
+        (61, "L4GM: Large 4D Gaussian Reconstruction Model"),
+        (65, "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models"),
+        (77, "ReMatching Dynamic Reconstruction Flow"),
+        (82, "DiffiT: Diffusion Vision Transformers for Image Generation"),
+        (96, "Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models"),
+        (97, "Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata"),
+        (105, "WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space"),
+        (106, "LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis")
+    ],
+    "Scientific AI & Engineering": [
+        (60, "Pretraining codomain attention neural operators for solving multiphysics pdes"),
+        (78, "Constructability-driven design of frame structures with state-space search methods"),
+        (81, "Learning Radio Environments by Differentiable Ray Tracing"),
+        (87, "Kilometer-Scale Convection Allowing Model Emulation using Generative Diffusion Modeling"),
+        (93, "Neural operators with localized integral and differential kernels")
+    ],
+    "Biomolecular AI": [
+        (55, "ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids"),
+        (57, "Proteina: Scaling Flow-based Protein Structure Generative Models"),
+        (62, "Molecule Generation with Fragment Retrieval Augmentation"),
+        (64, "Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization")
+    ],
+    "Neural Network Architectures & Optimization": [
+        (84, "Conformer without Convolutions"),
+        (85, "LLM Pruning and Distillation in Practice: The Minitron Approach"),
+        (89, "Align Your Steps: Optimizing Sampling Schedules in Diffusion Models"),
+        (90, "DoRA: Weight-Decomposed Low-Rank Adaptation"),
+        (94, "Improving Hyperparameter Optimization with Checkpointed Model Weights"),
+        (99, "An Empirical Study of Mamba-based Language Models"),
+        (102, "FasterViT: Fast Vision Transformers with Hierarchical Attention")
+    ],
+    "Hardware Design Automation": [
+        (69, "DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent"),
+        (86, "VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool"),
+        (95, "Large Language Model (LLM) for Standard Cell Layout Design Optimization"),
+        (101, "Learning to Compare Hardware Designs for High-Level Synthesis")
+    ],
+    "Speech & Audio AI": [
+        (68, "Detecting the Undetectable: Assessing the Efficacy of Current Spoof Detection Methods Against Seamless Speech Edits"),
+        (88, "GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators"),
+        (103, "Large Language Models are Efficient Learners of Noise-Robust Speech Recognition"),
+        (104, "It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition")
+    ],
+    "Emerging Applications & Systems": [
+        (59, "Cosmos World Foundation Model Platform for Physical AI"),
+        (92, "Experimenting with Artificial Intelligence: Programming Pathfinding Algorithms in C++ with Unreal Engine 5"),
+        (100, "Full-colour 3D holographic augmented-reality displays with metasurface waveguides")
+    ]
+}
+
+categorized_text = {
+    "Generative AI & Content Creation": [
+        (108, "ConsiStory: Training-Free Consistent Text-to-Image Generation"),
+        (109, "Interactive Texture Painting with Generative AI"),
+        (110, "Generating images of rare concepts using pre-trained diffusion models"),
+        (113, "Point-Cloud Completion with Pretrained Text-to-image Diffusion Models"),
+        (114, "SceneScape: Text-Driven Consistent Scene Generation"),
+        (117, "XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies"),
+        (127, "TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models"),
+        (129, "ATT3D: Amortized Text-To-3D Object Synthesis"),
+        (130, "DreamTeacher: Pretraining Image Backbones with Deep Generative Models"),
+        (131, "Generative Novel View Synthesis with 3D-Aware Diffusion Models"),
+        (132, "Syntactic Binding in Diffusion Models: Enhancing Attribute Correspondence through Attention Map Alignment"),
+        (134, "Norm-guided latent space exploration for text-to-image generation"),
+        (135, "Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection"),
+        (136, "Differentially Private Diffusion Models"),
+        (141, "Key-Locked Rank One Editing for Text-to-Image Personalization"),
+        (146, "Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models"),
+        (150, "A Hybrid Generator Architecture for Controllable Face Synthesis"),
+        (155, "Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models"),
+        (157, "Interactive AI Material Generation and Editing in NVIDIA Omniverse")
+    ],
+    "3D Graphics, Rendering & Neural Fields": [
+        (111, "Compact Neural Graphics Primitives with Learned Hash Probing"),
+        (119, "Adaptive Shells for Efficient Neural Radiance Field Rendering"),
+        (128, "2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision"),
+        (142, "AI-Mediated 3D Video Conferencing"),
+        (144, "Live 3D Portrait: Real-Time Radiance Fields for Single-Image Portrait View Synthesis"),
+        (145, "Micro-Mesh Construction"),
+        (148, "Random-Access Neural Compression of Material Textures"),
+        (151, "SSIF: Single-shot Implicit Morphable Faces With Consistent Texture Parameterization")
+    ],
+    "Computational Design & Electronic Design Automation (EDA)": [
+        (107, "Novel Transformer Model Based Clustering Method for Standard Cell Design Automation"),
+        (122, "CircuitOps: An ML Infrastructure Enabling Generative AI for VLSI Circuit Optimization"),
+        (126, "ChipNeMo: Domain-Adapted LLMs for Chip Design"),
+        (158, "Late Breaking Results: Test Selection For RTL Coverage By Unsupervised Learning From Fast Functional Simulation")
+    ],
+    "Robotics & Planning": [
+        (123, "Imitating Task and Motion Planning with Visuomotor Transformers"),
+        (125, "Human-In-The-Loop Task and Motion Planning for Imitation Learning"),
+        (154, "Synthesizing Physical Character-Scene Interactions"),
+        (159, "Sequence-Based Plan Feasibility Prediction for Efficient Task and Motion Planning")
+    ],
+    "Machine Learning Foundations & Architectures": [
+        (112, "Convolutional State Space Models for Long-Range Spatiotemporal Modeling"),
+        (116, "Graph Metanetworks for Processing Diverse Neural Architectures"),
+        (140, "Data Free Learning of Reduced-Order Kinematics"),
+        (149, "IGB: Addressing The Gaps In Labeling, Features, Heterogeneity, and Size of Public Graph Datasets for Deep Learning Research"),
+        (153, "Guided Deep Kernel Learning")
+    ],
+    "Physics Simulation & Numerical Methods": [
+        (120, "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling"),
+        (137, "Flexible Isosurface Extraction for Gradient-Based Mesh Optimization"),
+        (138, "Generalizing Shallow Water Simulations with Dispersive Surface Waves"),
+        (139, "Walk on Stars: A Grid-Free Monte Carlo Method for PDEs with Neumann Boundary Conditions"),
+        (147, "Interactive Hair Simulation on the GPU Using ADMM"),
+        (152, "Boundary Value Caching for Walk on Spheres")
+    ],
+    "Speech & Language Processing": [
+        (115, "HyPoradise: An Open Baseline for Generative Speech Recognition with Large Language Models"),
+        (118, "Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition")
+    ],
+    "Autonomous Systems": [
+        (133, "Interpretable Trajectory Prediction for Autonomous Vehicles via Counterfactual Responsibility")
+    ],
+    "Wireless Communications & Signal Processing": [
+        (121, "A Neural Receiver for 5G NR Multi-user MIMO"),
+        (124, "Graph Neural Networks for Enhanced Decoding of Quantum LDPC Codes")
+    ],
+    "Reinforcement Learning": [
+        (143, "Learning Physically Simulated Tennis Players from Broadcast Videos"),
+        (156, "Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models")
+    ]
+}
+
+categorized_text = {
+    "Robotics & Manipulation": [
+        (160, "Meta-Policy Learning over Plan Ensembles for Robust Articulated Object Manipulation"),
+        (170, "Learning Human-to-Robot Handovers from Point Clouds"),
+        (185, "ProgPrompt: Generating Situated Robot Task Plans Using Large Language Models"),
+        (186, "IndustReal: Transferring Contact-Rich Assembly Tasks from Simulation to Reality"),
+        (189, "CabiNet: Scaling Neural Collision Detection for Object Rearrangement with Procedural Scene Generation"),
+    ],
+    "Autonomous Vehicles & Traffic Systems": [
+        (165, "Task-Aware Risk Estimation of Perception Failures for Autonomous Vehicles"),
+        (178, "Learning Autonomous Vehicle Safety Concepts from Demonstrations"),
+        (180, "BITS: Bi-level Imitation for Traffic Simulation"),
+        (182, "Guided Conditional Diffusion for Controllable Traffic Simulation"),
+        (184, "Expanding the Deployment Envelope of Behavior Prediction via Adaptive Meta-Learning"),
+        (207, "Task-Relevant Failure Detection for Trajectory Predictors in Autonomous Vehicles"),
+        (208, "DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles"),
+        (209, "Robust Trajectory Prediction against Adversarial Attacks"),
+    ],
+    "Generative AI & Content Creation": [
+        (166, "Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models"),
+        (169, "NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models"),
+        (171, "Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion"),
+        (172, "Zero-shot Pose Transfer for Unrigged Stylized 3D Characters"),
+        (173, "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models"),
+        (176, "Magic3D: High-Resolution Text-to-3D Content Creation"),
+        (190, "CALM: Conditional Adversarial Latent Models for Directable Virtual Characters"),
+        (202, "Target-free Text-guided Image Manipulation"),
+        (203, "Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis"),
+    ],
+    "Neural Rendering & 3D Reconstruction": [
+        (167, "FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization"),
+        (177, "Neuralangelo: High-Fidelity Neural Surface Reconstruction"),
+        (183, "Parallel Inversion of Neural Radiance Fields for Robust Pose Estimation"),
+        (191, "Real-Time Neural Appearance Models"),
+        (192, "Recursive Control Variates for Inverse Rendering"),
+        (199, "Joint Neural Denoising of Surfaces and Volumes"),
+    ],
+    "Core Machine Learning & Deep Learning Methods": [
+        (161, "Efficient Transformer Inference with Statically Structured Sparse Attention"),
+        (162, "Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields"),
+        (163, "Global Context Vision Transformers"),
+        (164, "Learning to Initiate and Reason in Event-Driven Cascading Processes"),
+        (174, "Train Hard, Fight Easy: Robust Meta Reinforcement Learning"),
+        (175, "Spherical Fourier Neural Operators: Learning Stable Dynamics on the Sphere"),
+        (179, "Tree-structured Policy Planning with Learned Behavior Models"),
+        (181, "Global and Reactive Motion Generation with Geometric Fabric Command Sequences"),
+        (193, "GPViT: A High Resolution Non-Hierarchical Vision Transformer with Group Propagation"),
+        (194, "Robust and Controllable Object-Centric Learning through Energy-based Models"),
+        (200, "Equivariant Architectures for Learning in Deep Weight Spaces"),
+        (205, "Never Worse, Mostly Better: Stable Policy Improvement in Deep Reinforcement Learning"),
+        (206, "Self-Supervised Pyramid Representation Learning for Multi-Label Visual Analysis and Beyond"),
+    ],
+    "Computer Vision & Perception": [
+        (168, "Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation"),
+        (188, "Subpixel Deblurring of Anti-Aliased Raster Clip Art"),
+    ],
+    "Hardware & VLSI Design Automation": [
+        (195, "DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning"),
+        (196, "NVCell 2: Routability-Driven Standard Cell Layout in Advanced Nodes with Lattice Graph Routability Model"),
+        (197, "Reinforcement Learning Guided Detailed Routing for Custom Circuits"),
+        (198, "AutoDMP: Automated DREAMPlace-based Macro Placement"),
+        (201, "Enabling Scalable AI Computational Lithography with Physics-Inspired Models"),
+        (204, "A 95.6-TOPS/W Deep Learning Inference Accelerator With Per-Vector Scaled 4-bit Quantization in 5 nm"),
+        (210, "Efficient Arithmetic Block Identification with Graph Learning and Network-flow"),
+    ],
+    "Communication Systems & Signal Processing": [
+        (211, "Deep Learning-Based Synchronization for Uplink NB-IoT"),
+        (212, "Graph Neural Networks for Channel Decoding"),
+    ],
+    "Adversarial Machine Learning & Robustness (General)": [
+        (187, "The Best Defense is a Good Offense: Adversarial Augmentation against Adversarial Attacks"),
+    ],
+}
+
+categorized_text = {
+    "Generative Models": [
+        (218, "Elucidating the Design Space of Diffusion-Based Generative Models"),
+        (219, "LION: Latent Point Diffusion Models for 3D Shape Generation"),
+        (220, "GENIE: Higher-Order Denoising Diffusion Solvers"),
+        (232, "Generative Adversarial Neural Operators"),
+        (241, "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion"),
+        (246, "Diffusion Models for Adversarial Purification"),
+        (251, "Polymorphic-GAN: Generating Aligned Samples across Multiple Domains with Learned Morph Maps"),
+        (253, "Efficient Geometry-aware 3D Generative Adversarial Networks"),
+        (254, "BigDatasetGAN: Synthesizing ImageNet with Pixel-wise Annotations"),
+        (262, "StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators")
+    ],
+    "Hardware Design & ML Acceleration": [
+        (213, "An Adversarial Active Sampling-based Data Augmentation Framework for Manufacturable Chip Design"),
+        (214, "HEAT: Hardware-Efficient Automatic Tensor Decomposition for Transformer Compression"),
+        (223, "Demystifying Map Space Exploration for NPUs"),
+        (225, "TransSizer: A Novel Transformer-Based Fast Gate Sizer"),
+        (226, "TAG: Learning Circuit Spatial Embedding from Layouts"),
+        (227, "Why are Graph Neural Networks Effective for EDA Problems?"),
+        (234, "Placement Optimization via PPA-Directed Graph Clustering"),
+        (235, "XT-PRAGGMA: Crosstalk Pessimism Reduction Accessible by GPU Gate-level Simulations and Machine Learning"),
+        (237, "Self Adaptive Reconfigurable Arrays (SARA): Learning Flexible GEMM Accelerator Configuration and Mapping-space using ML"),
+        (256, "A 17–95.6 TOPS/W Deep Learning Inference Accelerator with Per-Vector Scaled 4-bit Quantization for Transformers in 5nm")
+    ],
+    "Robotics & Autonomous Systems": [
+        (215, "Motion Policy Networks"),
+        (228, "Heterogeneous-Agent Trajectory Forecasting Incorporating Class Uncertainty"),
+        (230, "AdvDO: Realistic Adversarial Attacks for Trajectory Prediction"),
+        (233, "On Covariate Shift of Latent Confounders in Imitation and Reinforcement Learning"),
+        (248, "Correcting Robot Plans with Natural Language Feedback"),
+        (249, "ScePT: Scene-consistent, Policy-based Trajectory Predictions for Planning"),
+        (250, "Whose Track Is It Anyway? Improving Robustness to Tracking Errors with Affinity-Based Prediction"),
+        (258, "Injecting Planning-Awareness into Prediction and Detection Evaluation"),
+        (259, "MTP: Multi-Hypothesis Tracking and Prediction for Reduced Error Propagation"),
+        (260, "Propagating State Uncertainty Through Trajectory Forecasting"),
+        (261, "Factory: Fast Contact for Robotic Assembly"),
+        (264, "Accelerated Policy Learning with Parallel Differentiable Simulation")
+    ],
+    "Computer Vision & Graphics": [
+        (217, "\"This is my unicorn, Fluffy\": Personalizing frozen vision-language representations"),
+        (221, "Paraphrasing Is All You Need for Novel Object Captioning"),
+        (222, "SPoVT: Semantic-Prototype Variational Transformer for Dense Point Cloud Semantic Completion"),
+        (238, "Detecting Viewer-Perceived Intended Vector Sketch Connectivity"),
+        (239, "Time-multiplexed Neural Holography: A Flexible Framework for Holographic Near-eye Displays with Fast Heavily-quantized Spatial Light Modulators"),
+        (240, "Holographic Glasses for Virtual Reality"),
+        (242, "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding"),
+        (243, "Unbiased Inverse Volume Rendering With Differential Trackers"),
+        (252, "GroupViT: Semantic Segmentation Emerges from Text Supervision"),
+        (255, "FreeSOLO: Learning to Segment Objects without Annotations")
+    ],
+    "Machine Learning Systems & Optimization": [
+        (216, "LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update"),
+        (229, "Augmenting Legacy Networks for Flexible Inference."),
+        (231, "LANA: Latency Aware Network Acceleration"),
+        (244, "Optimal Clipping and Magnitude-aware Differentiation for Improved Quantization-aware Training"),
+        (257, "Optimizing tensor network contraction using reinforcement learning"),
+        (263, "MatBuilder: Mastering Sampling Uniformity Over Projections"),
+        (265, "Artificial Neural Networks generated by Low Discrepancy Sequences")
+    ],
+    "Wireless Communication & Signal Processing": [
+        (224, "Towards Adaptive Digital Self-Interference Cancellation in Full-Duplex Wireless Transceivers: APSM vs. Neural Networks"),
+        (236, "GPU-Accelerated Machine Learning in Non-Orthogonal Multiple Access"),
+        (245, "Adaptive Neural Network-based OFDM Receivers"),
+        (247, "GPU-Accelerated Partially Linear Multiuser Detection for 5G and Beyond URLLC Systems")
+    ]
+}
+
+categorized_text = {
+    "Generative Models & Synthesis": [
+        (276, "Score-Based Generative Modeling with Critically-Damped Langevin Diffusion"),
+        (277, "Tackling the Generative Learning Trilemma with Denoising Diffusion GANs"),
+        (281, "ATISS: Autoregressive Transformers for Indoor Scene Synthesis"),
+        (282, "Alias-Free Generative Adversarial Networks"),
+        (283, "EditGAN: High-Precision Semantic Image Editing"),
+        (288, "Extracting Triangular 3D Models, Materials, and Lighting From Images"),
+        (290, "Score-based Generative Modeling in Latent Space"),
+        (292, "Controllable and Compositional Generation with Latent-Space Energy-Based Models"),
+        (293, "Don’t Generate Me: Training Differentially Private Generative Models with Sinkhorn Divergence"),
+        (304, "NeRF-Tex: Neural Reflectance Field Textures"),
+        (305, "Neural Scene Graph Rendering"),
+        (306, "Real-time Neural Radiance Caching for Path Tracing"),
+        (309, "One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing"),
+        (314, "VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models")
+    ],
+    "Hardware Acceleration & Electronic Design Automation (EDA)": [
+        (273, "DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators"),
+        (278, "Marvel: A Data-Centric Approach for Mapping Deep Learning Operators on Spatial Accelerators"),
+        (280, "Machine Learning and Algorithms: Let Us Team Up for EDA"),
+        (284, "Softermax: Hardware/Software Co-Design of an Efficient Softmax for Transformers"),
+        (285, "NVCell: Standard Cell Layout in Advanced Technology Nodes with Reinforcement Learning"),
+        (295, "Graph Learning-Based Arithmetic Block Identification"),
+        (298, "Union: A Unified HW-SW Co-Design Ecosystem in MLIR for Evaluating Tensor Operations on Spatial Accelerators"),
+        (300, "SiP-ML: high-bandwidth optical network interconnects for machine learning training"),
+        (316, "Simba: scaling deep-learning inference with chiplet-based architecture"),
+        (318, "GAMMA: Exploiting Gustavson’s Algorithm to Accelerate Sparse Matrix Multiplication")
+    ],
+    "Robotics & Control": [
+        (268, "Transform2Act: Learning a Transform-and-Control Policy for Efficient Agent Design"),
+        (272, "DefGraspSim: Physics-Based Simulation of Grasp Outcomes on 3D Deformable Objects"),
+        (275, "Cooperative Task and Motion Planning for Multi-Arm Assembly Systems"),
+        (315, "ACRONYM: A Large-Scale Grasp Dataset Based on Simulation")
+    ],
+    "Computer Vision & Graphics": [
+        (270, '"This is my unicorn, Fluffy": Personalizing frozen vision-language representations'),
+        (286, "KAMA: 3D Keypoint Aware Body Mesh Articulation"),
+        (289, "Noise-Aware Video Saliency Prediction"),
+        (307, "Learning to Track Instances without Video Annotations"),
+        (308, "Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization"),
+        (311, "Weakly-Supervised Physically Unconstrained Gaze Estimation"),
+        (319, "Appearance-Driven Automatic 3D Model Simplification")
+    ],
+    "Neural Network Architectures & Optimization": [
+        (269, "Efficient Token Mixing for Transformers via Adaptive Fourier Neural Operators"),
+        (291, "A Contrastive Learning Approach for Training Variational Autoencoder Priors"),
+        (296, "Optimizing Selective Protection for CNN Resilience"),
+        (299, "Compressing 1D Time-Channel Separable Convolutions using Sparse Random Ternary Matrices"),
+        (312, "From local structures to size generalization in graph neural networks"),
+        (320, "VS-QUANT: Per-Vector Scaled Quantization for Accurate Low-Precision Neural Network Inference")
+    ],
+    "Reinforcement Learning (Core & Applications)": [
+        (279, "Reinforcement Learning for Datacenter Congestion Control"),
+        (297, "Improve Agents without Retraining: Parallel Tree Search with Off-Policy Correction"),
+        (313, "Controlling graph dynamics with reinforcement learning and graph neural networks")
+    ],
+    "General Machine Learning & Learning Paradigms": [
+        (301, "Known unknowns: Learning novel concepts using exploratory reasoning-by-elimination"),
+        (317, "Contrastive Syn-to-Real Generalization"),
+        (321, "Auxiliary Learning by Implicit Differentiation")
+    ],
+    "Applied AI / Specific Domains": [
+        (271, "Sionna: An Open-Source Library for Next-Generation Physical Layer Research"),
+        (274, "Generic Lithography Modeling with Dual-band Optics-Inspired Neural Networks"),
+        (287, "Standard vs. Learning-based Codecs for Real Time Endoscopic Video Transmission"),
+        (294, "Speckle-free holography with partially coherent light sources and camera-in-the-loop calibration"),
+        (302, "Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles"),
+        (303, "Improving Long-read Consensus Sequencing Accuracy with Deep Learning")
+    ]
+}
+
+categorized_text = {
+    "Computer Vision & Graphics": [
+        (322, "On the Universality of Rotation Equivariant Point Cloud Networks"),
+        (325, "Robust Vision-Based Cheat Detection in Competitive Gaming"),
+        (326, "Interactive Path Tracing and Reconstruction of Sparse Volumes"),
+        (335, "Self-Supervised Learning for Domain Adaptation on Point-Clouds"),
+        (340, "Online Adaptation for Consistent Mesh Reconstruction in the Wild"),
+        (342, "Self-Learning Transformations for Improving Gaze and Head Redirection"),
+        (345, "Variational Amodal Object Completion"),
+        (349, "Learning Deformable Tetrahedral Meshes for 3D Reconstruction"),
+        (351, "Neural FFTs for Universal Texture Image Synthesis"),
+        (356, "Modular Primitives for High-Performance Differentiable Rendering"),
+        (357, "Learning Object Permanence from Video"),
+        (362, "UFO2: A Unified Framework towards Omni-supervised Object Detection"),
+        (363, "Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification"),
+        (364, "World-Consistent Video-to-Video Synthesis"),
+        (365, "Self-supervised Single-view 3D Reconstruction via Semantic Consistency"),
+        (366, "Weakly-Supervised 3D Hand Pose Estimation via Biomechanical Constraints "),
+        (371, "Angular Visual Hardness")
+    ],
+    "Machine Learning Models & Architectures": [
+        (323, "Learning the Pareto Front with Hypernetworks"),
+        (333, "Federated Learning with Heterogeneous Architectures using Graph HyperNetworks"),
+        (336, "From Generalized Zero-Shot Learning to Long-Tail with Class Descriptors"),
+        (341, "Set2Graph: Learning Graphs From Sets"),
+        (343, "A Causal View of Compositional Zero-Shot Recognition"),
+        (344, "Convolutional Tensor-Train LSTM for Spatio-Temporal Learning"),
+        (346, "Training Generative Adversarial Networks with Limited Data"),
+        (348, "Neural Networks with Recurrent Generative Feedback"),
+        (352, "Neural Control Variates"),
+        (353, "ZEST: Zero-shot Learning from Text Descriptions using Textual Similarity and Visual Summarization"),
+        (358, "A Programmable Approach to Neural Network Compression"),
+        (361, "UNAS: Differentiable Architecture Search Meets Reinforcement Learning"),
+        (370, "Semi-Supervised StyleGAN for Disentanglement Learning"),
+        (372, "On Learning Sets of Symmetric Elements"),
+        (374, "NVAE: A Deep Hierarchical Variational Autoencoder")
+    ],
+    "Reinforcement Learning & Planning": [
+        (332, "Planning and Learning with Adaptive Lookahead"),
+        (337, "Acting in Delayed Environments with Non-Stationary Markov Policies"),
+        (350, "Accelerating Reinforcement Learning through GPU Atari Emulation")
+    ],
+    "ML for Hardware & System Optimization": [
+        (324, "Learning Sparse Matrix Row Permutations for Efficient SpMM on GPU Architectures"),
+        (328, "Making Convolutions Resilient via Algorithm-Based Error Detection Techniques"),
+        (329, "Heterogeneous Dataflow Accelerators for Multi-DNN Workloads"),
+        (330, "MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification"),
+        (331, "Parasitic-Aware Analog Circuit Sizing with Graph Neural Networks and Bayesian Optimization"),
+        (334, "Standard Cell Routing with Reinforcement Learning and Genetic Algorithm in Advanced Technology Nodes"),
+        (338, "Flexion: A Quantitative Metric for Flexibility in DNN Accelerators"),
+        (339, "NVCell: Generate Standard Cell Layout in Advanced Technology Nodes with Reinforcement Learning"),
+        (359, "Accelerating Chip Design with Machine Learning"),
+        (367, "ParaGraph: Layout Parasitics and Device Parameter Prediction using Graph Neural Networks"),
+        (368, "Planaria: Dynamic Architecture Fission for Spatial Multi-Tenant Acceleration of Deep Neural Networks"),
+        (369, "GRANNITE: Graph Neural Network Inference for Transferable Power Estimation")
+    ],
+    "Domain-Specific ML Applications": [
+        (327, "Deep Learning-based Enhancement of Epigenomics Data with AtacWorks"),
+        (354, "Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles"),
+        (355, "Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles"),
+        (360, "HarDNN: Fine-Grained Vulnerability Evaluation and Protection for Convolutional Neural Networks")
+    ],
+    "Benchmarks & Evaluation": [
+        (347, "Bongard-LOGO: A New Benchmark for Human-Level Concept Learning and Reasoning")
+    ],
+    "Foundational ML & Algorithms": [
+        (373, "Learning Algebraic Multigrid Using Graph Neural Networks")
+    ]
+}
+
+categorized_text = {
+    "3D Computer Vision & Scene Understanding": [
+        (375, "Compositional Neural Scene Representations for Shading Inference"),
+        (382, "Bi3D: Stereo Depth Estimation via Binary Classifications"),
+        (383, "Meshlet Priors for 3D Mesh Reconstruction"),
+        (386, "Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths"),
+        (387, "Self-Supervised Viewpoint Learning From Image Collections"),
+        (388, "Two-shot Spatially-varying BRDF and Shape Estimation"),
+        (392, "Self-supervised 6D Object Pose Estimation for Robot Manipulation"),
+        (398, "SymGAN: Orientation Estimation without Annotation for Symmetric Objects"),
+        (413, "Neural Inverse Rendering of an Indoor Scene from a Single Image"),
+        (416, "PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows"),
+        (417, "Extreme View Synthesis")
+    ],
+    "Generative Models & Image/Video Synthesis": [
+        (385, "Analyzing and Improving the Image Quality of StyleGAN"),
+        (390, "Learning Canonical Representations for Scene Graph to Image Generation"),
+        (402, "Domain Stylization: A Fast Covariance Matching Framework towards Domain Adaptation"),
+        (406, "Few-Shot Video-to-Video Synthesis"),
+        (408, "Dance to Music"),
+        (409, "Improved Precision and Recall Metric for Assessing Generative Models"),
+        (415, "Highly-scalable, Physics-informed GANs for Learning Solutions of Stochastic PDEs")
+    ],
+    "Machine Learning Systems & Hardware Acceleration": [
+        (378, "DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement"),
+        (391, "Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs"),
+        (393, "An In-Network Architecture for Accelerating Shared-Memory Multiprocessor Collectives"),
+        (396, "MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings"),
+        (403, "A 0.32–128 TOPS, Scalable Multi-Chip-Module-Based Deep Neural Network Inference Accelerator With Ground-Referenced Signaling in 16 nm"),
+        (412, "MAGNet: A Modular Accelerator Generator for Neural Networks"),
+        (421, "Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture"),
+        (422, "Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows: A Data-Centric Approach."),
+        (425, "GPU-Accelerated Atari Emulation for Reinforcement Learning")
+    ],
+    "ML Fundamentals & Robustness": [
+        (377, "PyTorchFI: A Runtime Perturbation Tool for DNNs"),
+        (381, "Regularizing Neural Networks via Minimizing Hyperspherical Energy"),
+        (384, "Monte Carlo Gradient Quantization"),
+        (389, "Making Convolutions Resilient via Algorithm-Based Error Detection Techniques"),
+        (400, "HarDNN: Feature Map Vulnerability Evaluation in CNNs"),
+        (401, "On the Distance between Two Neural Networks and the Stability of Learning"),
+        (410, "Instant Quantization of neural networks using Monte Carlo Methods")
+    ],
+    "Weakly/Self-Supervised & Few-Shot Learning": [
+        (379, "Contrastive Learning for Weakly Supervised Phrase Grounding"),
+        (380, "Instance-aware, Context-focused, and Memory-efficient Weakly Supervised Object Detection"),
+        (394, "How to close sim-real gap? transfer with segmentation!"),
+        (414, "Few-Shot Adaptive Gaze Estimation"),
+        (420, "Confidence Regularized Self-Training")
+    ],
+    "Computer Vision & Image Processing (General)": [
+        (399, "Neurreg: Neural registration and its application to image segmentation"),
+        (407, "High-Quality Self-Supervised Deep Image Denoising"),
+        (411, "Joint Optimization for Cooperative Image Captioning"),
+        (424, "Video Stitching for Linear Camera Arrays")
+    ],
+    "AI for Specific Applications": [
+        (376, "ML-driven Malware that Targets AV Safety"),
+        (397, "Genome Variant Calling with a Deep Averaging Network"),
+        (404, "FIST: A Feature-Importance Sampling and Tree-Based Method for Automatic Design Flow Parameter Tuning"),
+        (405, "PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network"),
+        (418, "Neural Turtle Graphics for Modeling City Road Layouts"),
+        (423, "A Billion Ways to Grasp: An Evaluation of Grasp Sampling Schemes on a Dense, Physics-based Grasp Data Set"),
+        (426, "ML-based Fault Injection for Autonomous Vehicles: A Case for Bayesian Fault Injection")
+    ]
+}
+
+categorized_text = {
+    "Computer Vision: Image & Video Generation/Synthesis": [
+        "428 [Semantic Image Synthesis with Spatially-Adaptive Normalization]",
+        "434 [A Style-Based Generator Architecture for Generative Adversarial Networks]",
+        "449 [Unsupervised Stylish Image Description Generation via Domain Layer Norm]",
+        "462 [Multimodal Unsupervised Image-to-Image Translation]",
+        "463 [A Closed-form Solution to Photorealistic Image Stylization]",
+        "468 [MoCoGAN: Decomposing Motion and Content for Video Generation]",
+        "475 [High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs]"
+    ],
+    "Computer Vision: 3D Vision & Pose Estimation": [
+        "430 [Neural RGB->D Sensing: Depth and Uncertainty from a Video Camera]",
+        "433 [PlaneRCNN: 3D Plane Detection and Reconstruction from a Single Image]",
+        "456 [Hand Pose Estimation via Latent 2.5 D Heatmap Regression]",
+        "457 [Tackling 3D ToF Artifacts Through Learning and the FLAT Dataset]",
+        "458 [Learning Rigidity in Dynamic Scenes with a Moving Camera for 3D Motion Field Estimation]",
+        "467 [Light-weight Head Pose Invariant Gaze Tracking]",
+        "470 [Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals]",
+        "473 [SPLATNet: Sparse Lattice Networks for Point Cloud Processing]",
+        "477 [Geometry-Aware Learning of Maps for Camera Localization]"
+    ],
+    "Computer Vision: Motion & Action Analysis": [
+        "431 [Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation]",
+        "432 [STEP: Spatio-Temporal Progressive Learning for Video Action Detection]",
+        "450 [Models Matter, So Does Training: An Empirical Study of CNNs for Optical Flow Estimation]",
+        "451 [A Fusion Approach for Multi-Frame Optical Flow Estimation]",
+        "459 [Switchable Temporal Propagation Network]",
+        "472 [PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume]"
+    ],
+    "Computer Vision: Image Understanding & Restoration": [
+        "429 [Joint Discriminative and Generative Learning for Person Re-identification]",
+        "446 [Informative Object Annotations: Tell Me Something I Don't Know]",
+        "452 [Mapping Images to Scene Graphs with Permutation-Invariant Structured Prediction]",
+        "460 [Image Inpainting for Irregular Holes Using Partial Convolutions]",
+        "461 [Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training]",
+        "464 [Superpixel Sampling Networks]",
+        "466 [Noise2Noise: Learning Image Restoration without Clean Data]",
+        "469 [Improving Landmark Localization with Semi-Supervised Learning]",
+        "474 [Deep Semantic Face Deblurring]"
+    ],
+    "Neural Network Architectures & Optimization": [
+        "435 [Pixel-Adaptive Convolutional Neural Networks]",
+        "436 [Importance Estimation for Neural Network Pruning]",
+        "447 [Rethinking full connectivity in recurrent neural networks]",
+        "471 [Learning Strict Identity Mappings in Deep Residual Networks]",
+        "476 [Decoupled Networks]",
+        "478 [Making Convolutional Networks Recurrent for Visual Sequence Learning]",
+        "479 [UCNN: Exploiting Computational Reuse in Deep Neural Networks via Weight Repetition]",
+        "480 [Structurally Sparsified Backward Propagation for Faster Long Short-Term Memory Training]"
+    ],
+    "Deep Learning Systems & Hardware Accelerators": [
+        "437 [A 0.11 pJ/Op, 0.32-128 TOPS, Scalable Multi-Chip-Module-based Deep Neural Network Accelerator with Ground-Reference Signaling in 16nm]",
+        "440 [Analog/Mixed-Signal Hardware Error Modeling for Deep Learning Inference]",
+        "442 [Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs]",
+        "443 [DeLTA: GPU Performance Model for Deep Learning Applications with In-depth Memory System Traffic Analysis]",
+        "445 [Timeloop: A Systematic Approach to DNN Accelerator Evaluation]"
+    ],
+    "Deep Learning for Electronic Design Automation (EDA)": [
+        "438 [DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement]",
+        "439 [High Performance Graph Convolutional Networks with Applications in Testability Analysis]",
+        "441 [PRIMAL: Power Inference using Machine Learning]",
+        "444 [Routability-Driven Macro Placement with Embedded CNN-Based Prediction Model]",
+        "455 [RouteNet: Routability Prediction for Mixed-size Designs using Convolutional Neural Network]"
+    ],
+    "Machine Learning: General Methods & Applications": [
+        "448 [Metaoptimization on a Distributed System for Deep Reinforcement Learning]",
+        "453 [Learning towards Minimum Hyperspherical Energy]",
+        "454 [Exascale Deep Learning for Climate Analytics]",
+        "465 [Machine Learning and Rendering]"
+    ]
+}
+
+categorized_text = {
+    "Deep Learning Systems & Efficiency": {
+        "Hardware Accelerators": [
+            (487, "Stitch-X: An Accelerator Architecture for Exploiting Unstructured Sparsity in Deep Neural Networks"),
+            (495, "Understanding Error Propagation in Deep Learning Neural Network (DNN) Accelerators and Applications"),
+            (504, "SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks"),
+            (517, "Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks"),
+            (528, "cuDNN: Efficient Primitives for Deep Learning")
+        ],
+        "Model Compression & Sparsity": [
+            (486, "Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks"),
+            (505, "Pruning Convolutional Neural Networks for Resource Efficient Inference"),
+            (522, "Compressing Neural Networks with the Hashing Trick")
+        ],
+        "Parallel & Distributed Training": [
+            (485, "Synchronous Multi-GPU Deep Learning with Low-Precision Communication: An Experimental Study"),
+            (508, "Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU"),
+            (510, "Tensor Contractions with Extended BLAS Kernels on CPU and GPU")
+        ],
+        "Memory & Resource Optimization": [
+            (484, "IamNN: Iterative and Adaptive Mobile Neural Network for Efficient Image Classification"),
+            (488, "Learning Binary Residual Representations for Domain-specific Video Streaming"),
+            (498, "A Lightweight Approach for On-the-Fly Reflectance Estimation"),
+            (512, "vDNN: Virtualized Deep Neural Networks for Scalable, Memory-Efficient Neural Network Design")
+        ]
+    },
+    "Computer Vision & Image Processing": {
+        "Image & Video Generation": [
+            (483, "Progressive Growing of GANs for Improved Quality, Stability, and Variation"),
+            (493, "Unsupervised Image-to-Image Translation Networks"),
+            (530, "MesoGAN: Generative Neural Reflectance Shells")
+        ],
+        "Image & Video Restoration/Enhancement": [
+            (482, "Reblur2Deblur: Deblurring Videos via Self-Supervised Learning"),
+            (497, "Learning to Super-Resolve Blurry Face and Text Images")
+        ],
+        "General Computer Vision": [
+            (494, "Learning Affinity via Spatial Propagation Networks"),
+            (502, "Audio-Driven Facial Animation by Joint End-to-End Learning of Pose and Emotion"),
+            (506, "Context-aware Captions from Context-agnostic Supervision"),
+            (514, "Multilayer and Multimodal Fusion of Deep Neural Networks for Video Classification"),
+            (515, "Learning to generalize to new compositions in image understanding"),
+            (521, "Learning Sparse Metrics, One Feature at a Time")
+        ],
+        "Adaptive Image Processing": [
+            (489, "Learning Adaptive Parameter Tuning for Image Processing"),
+            (526, "Adaptive Segmentation based on a Learned Quality Metric"),
+            (527, "Machine Learning for Adaptive Bilateral Filtering")
+        ]
+    },
+    "Learning Paradigms & Algorithms": {
+        "Reinforcement Learning": [
+            (501, "Tactics of Adversarial Attack on Deep Reinforcement Learning Agents")
+        ],
+        "Semi-Self-Weakly Supervised Learning": [
+            (482, "Reblur2Deblur: Deblurring Videos via Self-Supervised Learning"), # Also in Image/Video Restoration
+            (507, "Learning From Noisy Large-Scale Datasets With Minimal Supervision"),
+            (513, "Temporal Ensembling for Semi-Supervised Learning")
+        ],
+        "Adaptive & Online Learning": [
+            (492, "AdaBatch: Adaptive Batch Sizes for Training Deep Neural Networks"),
+            (499, "Group online adaptive learning")
+        ],
+        "Zero-Shot & Transfer Learning": [
+            (481, "Probabilistic AND-OR Attribute Grouping for Zero-Shot Learning")
+        ],
+        "Graph Learning & Algorithms": [
+            (496, "Parallel Jaccard and Related Graph Clustering Techniques"),
+            (503, "Parallel Modularity Clustering"),
+            (519, "Parallel Spectral Graph Partitioning"),
+            (529, "Graph Positional Encoding via Random Feature Propagation")
+        ]
+    },
+    "Deep Learning Theory & Optimization": {
+        "Deep Learning Foundations": [
+            (490, "Parallel Complexity of Forward and Backward Propagation"),
+            (491, "Integral Equations and Machine Learning"),
+            (495, "Understanding Error Propagation in Deep Learning Neural Network (DNN) Accelerators and Applications"),
+            (500, "Feedforward and Recurrent Neural Networks Backward Propagation and Hessian in Matrix Form"),
+            (509, "Loss Functions for Image Restoration with Neural Networks")
+        ]
+    },
+    "Human-Computer Interaction (HCI)": {
+        "Gesture Recognition & Sensing": [
+            (516, "Towards Selecting Robust Hand Gestures for Automotive Interfaces"),
+            (518, "Online Detection and Classification of Dynamic Hand Gestures with Recurrent 3D Convolutional Neural Networks"),
+            (523, "Hand Gesture Recognition with 3D Convolutional Neural Networks"),
+            (524, "Multi-sensor System for Driver’s Hand-Gesture Recognition"),
+            (525, "Short-Range FMCW Monopulse Radar for Hand-Gesture Sensing")
+        ]
+    }
+}

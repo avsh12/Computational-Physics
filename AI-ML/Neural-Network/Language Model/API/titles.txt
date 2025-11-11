@@ -1,0 +1,527 @@
+Align Your Flow: Scaling Continuous-Time Flow Map Distillation
+Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training
+Elucidated Rolling Diffusion Models for Probabilistic Weather Forecasting
+ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning
+Attention on the Sphere
+Augmenting Simulated Noisy Quantum Data Collection by Orders of Magnitude Using Pre-Trajectory Sampling with Batched Execution
+Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail
+Task-Oriented Human Grasp Synthesis via Context- and Task-Aware Diffusers
+Isaac Lab: A GPU Accelerated Simulation Framework For Multi-Modal Robot Learning
+Learning to Plan & Schedule with Reinforcement-Learned Bimanual Robot Skills
+FVDebug: An LLM-Driven Debugging Assistant for Automated Root Cause Analysis of Formal Verification Failures
+Huge ensembles–Part 1: Design of ensemble weather forecasts using spherical Fourier neural operators
+Huge ensembles – Part 2: Properties of a huge ensemble of hindcasts generated with spherical Fourier neural operators
+VoiceNoNG: Robust High-Quality Speech Editing Model without Hallucinations
+GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control
+Assessing Learned Models for Phase-only Hologram Compression
+Fly, Fail, Fix: Iterative Game Repair with Reinforcement Learning and Large Multimodal Models
+Generative Detail Enhancement for Physically Based Materials
+FourCastNet 3: A geometric approach to probabilistic machine-learning weather forecasting at scale
+Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow
+GenMol: A Drug Discovery Generalist with Discrete Diffusion
+Helix Parallelism: Rethinking Sharding Strategies for Interactive  Multi-Million-Token LLM Decoding
+Score-based Diffusion Models in Function Space
+Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems
+AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL
+Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds
+TriTex: Learning Texture from a Single Mesh via Triplane Semantic Features
+RL-RC-DoT: A Block-level RL agent for Task-Aware Video Compression
+Make It Count: Text-to-Image Generation with an Accurate Number of Objects
+GRS: Generating robotic simulation tasks from real-world images
+MambaVision: A Hybrid Mamba-Transformer Vision Backbone
+Marco: Configurable Graph-Based Task Solving and Multi-AI Agents Framework for Hardware Design
+Beyond the Buzz: A Pragmatic Take on Inference Disaggregation
+SLIM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression
+Design of a Standard-Compliant Real-Time Neural Receiver for 5G NR
+Score Distillation Sampling for Audio: Source Separation, Synthesis, and Beyond
+LongVILA: Scaling Long-Context Visual Language Models for Long Videos
+Hymba: A Hybrid-head Architecture for Small Language Models
+Gated Delta Networks: Improving Mamba2 with Delta Rule
+Latent Action Pretraining from Videos
+Audio Large Language Models Can Be Descriptive Speech Quality Evaluators
+Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models, 
+Add-it: Training-Free Object Insertion in Images via Pretrained Diffusion Models
+Towards Neural Scaling Laws for Time Series Foundation Models
+NVIDIA Isaac GR00T N1: An Open Foundation Model for Humanoid Robots
+Multi-student Diffusion Distillation for Better One-step Generators
+LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models
+Spatio-Temporal Context Prompting for Zero-Shot Action Detection
+Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation
+CorrFill: Enhancing Faithfulness in Reference-based Inpainting with Correspondence Guidance in Diffusion Models
+SoftTreeMax: Policy Gradient via tree expansion 
+eXtended Reality and Artificial Intelligence in Medicine and Rehabilitation
+scene_synthesizer: A Python Library for Procedural Scene Generation in Robot Manipulation
+Energy-Based Diffusion Language Models for Text Generation
+ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids
+Truncated Consistency Models
+Proteina: Scaling Flow-based Protein Structure Generative Models
+Directed Graph Generation with Heat Kernels
+Cosmos World Foundation Model Platform for Physical AI
+Pretraining codomain attention neural operators for solving multiphysics pdes
+L4GM: Large 4D Gaussian Reconstruction Model
+Molecule Generation with Fragment Retrieval Augmentation
+FactorSim: Generative Simulation via Factorized Representation
+Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization
+Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models
+Diffusion-Reward Adversarial Imitation Learning
+MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting
+Detecting the Undetectable: Assessing the Efficacy of Current Spoof Detection Methods Against Seamless Speech Edits
+DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent
+Differentiable GPU-Parallelized Task and Motion Planning
+SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation
+NOD-TAMP: Generalizable Long-Horizon Planning with Neural Object Descriptors
+SkillGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment
+Guiding Long-Horizon Task and Motion Planning with Vision Language Models
+Open-World Task and Motion Planning via Vision-Language Model Inferred Constraints
+HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation
+ReMatching Dynamic Reconstruction Flow
+Constructability-driven design of frame structures with state-space search methods
+Interventional Data Generation for Robust and Data-Efficient Robot Imitation Learning
+DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability
+Learning Radio Environments by Differentiable Ray Tracing
+DiffiT: Diffusion Vision Transformers for Image Generation
+Learning to Move Like Professional Counter-Strike Players
+Conformer without Convolutions
+LLM Pruning and Distillation in Practice: The Minitron Approach
+VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool
+Kilometer-Scale Convection Allowing Model Emulation using Generative Diffusion Modeling
+GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators
+Align Your Steps: Optimizing Sampling Schedules in Diffusion Models
+DoRA: Weight-Decomposed Low-Rank Adaptation
+DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents
+Experimenting with Artificial Intelligence: Programming Pathfinding Algorithms in C++ with Unreal Engine 5
+Neural operators with localized integral and differential kernels
+Improving Hyperparameter Optimization with Checkpointed Model Weights
+Large Language Model (LLM) for Standard Cell Layout Design Optimization
+Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models
+Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata
+Nemotron-4 340B
+An Empirical Study of Mamba-based Language Models
+Full-colour 3D holographic augmented-reality displays with metasurface waveguides
+Learning to Compare Hardware Designs for High-Level Synthesis
+FasterViT: Fast Vision Transformers with Hierarchical Attention
+Large Language Models are Efficient Learners of Noise-Robust Speech Recognition
+It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition
+WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space
+LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis
+Novel Transformer Model Based Clustering Method for Standard Cell Design Automation
+ConsiStory: Training-Free Consistent Text-to-Image Generation
+Interactive Texture Painting with Generative AI
+Generating images of rare concepts using pre-trained diffusion models
+Compact Neural Graphics Primitives with Learned Hash Probing
+Convolutional State Space Models for Long-Range Spatiotemporal Modeling
+Point-Cloud Completion with Pretrained Text-to-image Diffusion Models
+SceneScape: Text-Driven Consistent Scene Generation
+HyPoradise: An Open Baseline for Generative Speech Recognition with Large Language Models
+Graph Metanetworks for Processing Diverse Neural Architectures
+XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies
+Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition
+Adaptive Shells for Efficient Neural Radiance Field Rendering
+Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling
+A Neural Receiver for 5G NR Multi-user MIMO
+CircuitOps: An ML Infrastructure Enabling Generative AI for VLSI Circuit Optimization
+Imitating Task and Motion Planning with Visuomotor Transformers
+Graph Neural Networks for Enhanced Decoding of Quantum LDPC Codes
+Human-In-The-Loop Task and Motion Planning for Imitation Learning
+ChipNeMo: Domain-Adapted LLMs for Chip Design
+TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models
+2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision
+ATT3D: Amortized Text-To-3D Object Synthesis
+DreamTeacher: Pretraining Image Backbones with Deep Generative Models
+Generative Novel View Synthesis with 3D-Aware Diffusion Models
+Syntactic Binding in Diffusion Models: Enhancing Attribute Correspondence through Attention Map Alignment
+Interpretable Trajectory Prediction for Autonomous Vehicles via Counterfactual Responsibility
+Norm-guided latent space exploration for text-to-image generation
+Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection
+Differentially Private Diffusion Models
+Flexible Isosurface Extraction for Gradient-Based Mesh Optimization
+Generalizing Shallow Water Simulations with Dispersive Surface Waves
+Walk on Stars: A Grid-Free Monte Carlo Method for PDEs with Neumann Boundary Conditions
+Data Free Learning of Reduced-Order Kinematics
+Key-Locked Rank One Editing for Text-to-Image Personalization
+AI-Mediated 3D Video Conferencing
+Learning Physically Simulated Tennis Players from Broadcast Videos
+Live 3D Portrait: Real-Time Radiance Fields for Single-Image Portrait View Synthesis
+Micro-Mesh Construction
+Interactive Hair Simulation on the GPU Using ADMM
+Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models
+Random-Access Neural Compression of Material Textures
+IGB: Addressing The Gaps In Labeling, Features, Heterogeneity, and Size of Public Graph Datasets for Deep Learning Research
+A Hybrid Generator Architecture for Controllable Face Synthesis
+SSIF: Single-shot Implicit Morphable Faces With Consistent Texture Parameterization
+Boundary Value Caching for Walk on Spheres
+Synthesizing Physical Character-Scene Interactions
+Guided Deep Kernel Learning
+Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models
+Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models
+Interactive AI Material Generation and Editing in NVIDIA Omniverse
+Sequence-Based Plan Feasibility Prediction for Efficient Task and Motion Planning
+Late Breaking Results: Test Selection For RTL Coverage By Unsupervised Learning From Fast Functional Simulation
+Meta-Policy Learning over Plan Ensembles for Robust Articulated Object Manipulation
+Efficient Transformer Inference with Statically Structured Sparse Attention
+Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields
+Global Context Vision Transformers
+Learning to Initiate and Reason in Event-Driven Cascading Processes
+Task-Aware Risk Estimation of Perception Failures for Autonomous Vehicles
+Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models
+FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization
+Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation
+NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models
+Learning Human-to-Robot Handovers from Point Clouds
+Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion
+Zero-shot Pose Transfer for Unrigged Stylized 3D Characters
+Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models
+Train Hard, Fight Easy: Robust Meta Reinforcement Learning
+Spherical Fourier Neural Operators: Learning Stable Dynamics on the Sphere
+Magic3D: High-Resolution Text-to-3D Content Creation
+Neuralangelo: High-Fidelity Neural Surface Reconstruction
+Learning Autonomous Vehicle Safety Concepts from Demonstrations
+Tree-structured Policy Planning with Learned Behavior Models
+BITS: Bi-level Imitation for Traffic Simulation
+Global and Reactive Motion Generation with Geometric Fabric Command Sequences
+Guided Conditional Diffusion for Controllable Traffic Simulation
+Parallel Inversion of Neural Radiance Fields for Robust Pose Estimation
+Expanding the Deployment Envelope of Behavior Prediction via Adaptive Meta-Learning
+ProgPrompt: Generating Situated Robot Task Plans Using Large Language Models
+IndustReal: Transferring Contact-Rich Assembly Tasks from Simulation to Reality
+The Best Defense is a Good Offense: Adversarial Augmentation against Adversarial Attacks
+Subpixel Deblurring of Anti-Aliased Raster Clip Art
+CabiNet: Scaling Neural Collision Detection for Object Rearrangement with Procedural Scene Generation
+CALM: Conditional Adversarial Latent Models for Directable Virtual Characters
+Real-Time Neural Appearance Models
+Recursive Control Variates for Inverse Rendering
+GPViT: A High Resolution Non-Hierarchical Vision Transformer with Group Propagation
+Robust and Controllable Object-Centric Learning through Energy-based Models
+DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning
+NVCell 2: Routability-Driven Standard Cell Layout in Advanced Nodes with Lattice Graph Routability Model
+Reinforcement Learning Guided Detailed Routing for Custom Circuits
+AutoDMP: Automated DREAMPlace-based Macro Placement
+Joint Neural Denoising of Surfaces and Volumes
+Equivariant Architectures for Learning in Deep Weight Spaces
+Enabling Scalable AI Computational Lithography with Physics-Inspired Models
+Target-free Text-guided Image Manipulation
+Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis
+A 95.6-TOPS/W Deep Learning Inference Accelerator With Per-Vector Scaled 4-bit Quantization in 5 nm
+Never Worse, Mostly Better: Stable Policy Improvement in Deep Reinforcement Learning
+Self-Supervised Pyramid Representation Learning for Multi-Label Visual Analysis and Beyond
+Task-Relevant Failure Detection for Trajectory Predictors in Autonomous Vehicles
+DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles
+Robust Trajectory Prediction against Adversarial Attacks
+Efficient Arithmetic Block Identification with Graph Learning and Network-flow
+Deep Learning-Based Synchronization for Uplink NB-IoT
+Graph Neural Networks for Channel Decoding
+An Adversarial Active Sampling-based Data Augmentation Framework for Manufacturable Chip Design
+HEAT: Hardware-Efficient Automatic Tensor Decomposition for Transformer Compression
+Motion Policy Networks
+LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update
+"This is my unicorn, Fluffy": Personalizing frozen vision-language representations
+Elucidating the Design Space of Diffusion-Based Generative Models
+LION: Latent Point Diffusion Models for 3D Shape Generation
+GENIE: Higher-Order Denoising Diffusion Solvers
+Paraphrasing Is All You Need for Novel Object Captioning
+SPoVT: Semantic-Prototype Variational Transformer for Dense Point Cloud Semantic Completion
+Demystifying Map Space Exploration for NPUs
+Towards Adaptive Digital Self-Interference Cancellation in Full-Duplex Wireless Transceivers: APSM vs. Neural Networks
+TransSizer: A Novel Transformer-Based Fast Gate Sizer
+TAG: Learning Circuit Spatial Embedding from Layouts
+Why are Graph Neural Networks Effective for EDA Problems?
+ Heterogeneous-Agent Trajectory Forecasting Incorporating Class Uncertainty 
+Augmenting Legacy Networks for Flexible Inference.
+AdvDO: Realistic Adversarial Attacks for Trajectory Prediction
+LANA: Latency Aware Network Acceleration
+Generative Adversarial Neural Operators
+On Covariate Shift of Latent Confounders in Imitation and Reinforcement Learning
+Placement Optimization via PPA-Directed Graph Clustering
+XT-PRAGGMA: Crosstalk Pessimism Reduction Accessible by GPU Gate-level Simulations and Machine Learning
+GPU-Accelerated Machine Learning in Non-Orthogonal Multiple Access
+Self Adaptive Reconfigurable Arrays (SARA): Learning Flexible GEMM Accelerator Configuration and Mapping-space using ML
+Detecting Viewer-Perceived Intended Vector Sketch Connectivity
+Time-multiplexed Neural Holography: A Flexible Framework for Holographic Near-eye Displays with Fast Heavily-quantized Spatial Light Modulators
+Holographic Glasses for Virtual Reality
+An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion
+Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
+Unbiased Inverse Volume Rendering With Differential Trackers
+Optimal Clipping and Magnitude-aware Differentiation for Improved Quantization-aware Training
+Adaptive Neural Network-based OFDM Receivers
+Diffusion Models for Adversarial Purification
+GPU-Accelerated Partially Linear Multiuser Detection for 5G and Beyond URLLC Systems
+Correcting Robot Plans with Natural Language Feedback
+ScePT: Scene-consistent, Policy-based Trajectory Predictions for Planning
+Whose Track Is It Anyway? Improving Robustness to Tracking Errors with Affinity-Based Prediction
+Polymorphic-GAN: Generating Aligned Samples across Multiple Domains with Learned Morph Maps
+GroupViT: Semantic Segmentation Emerges from Text Supervision
+Efficient Geometry-aware 3D Generative Adversarial Networks
+BigDatasetGAN: Synthesizing ImageNet with Pixel-wise Annotations
+FreeSOLO: Learning to Segment Objects without Annotations
+A 17–95.6 TOPS/W Deep Learning Inference Accelerator with Per-Vector Scaled 4-bit Quantization for Transformers in 5nm
+Optimizing tensor network contraction using reinforcement learning
+Injecting Planning-Awareness into Prediction and Detection Evaluation
+MTP: Multi-Hypothesis Tracking and Prediction for Reduced Error Propagation
+Propagating State Uncertainty Through Trajectory Forecasting
+Factory: Fast Contact for Robotic Assembly
+StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators
+MatBuilder: Mastering Sampling Uniformity Over Projections
+Accelerated Policy Learning with Parallel Differentiable Simulation
+Artificial Neural Networks generated by Low Discrepancy Sequences
+Transform2Act: Learning a Transform-and-Control Policy for Efficient Agent Design
+Efficient Token Mixing for Transformers via Adaptive Fourier Neural Operators
+"This is my unicorn, Fluffy": Personalizing frozen vision-language representations
+Sionna: An Open-Source Library for Next-Generation Physical Layer Research
+DefGraspSim: Physics-Based Simulation of Grasp Outcomes on 3D Deformable Objects
+DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators
+Generic Lithography Modeling with Dual-band Optics-Inspired Neural Networks
+Cooperative Task and Motion Planning for Multi-Arm Assembly Systems
+Score-Based Generative Modeling with Critically-Damped Langevin Diffusion
+	Tackling the Generative Learning Trilemma with Denoising Diffusion GANs
+Marvel: A Data-Centric Approach for Mapping Deep Learning Operators on Spatial Accelerators
+Reinforcement Learning for Datacenter Congestion Control
+Machine Learning and Algorithms: Let Us Team Up for EDA
+ATISS: Autoregressive Transformers for Indoor Scene Synthesis
+Alias-Free Generative Adversarial Networks
+EditGAN: High-Precision Semantic Image Editing
+Softermax: Hardware/Software Co-Design of an Efficient Softmax for Transformers
+NVCell: Standard Cell Layout in Advanced Technology Nodes with Reinforcement Learning
+KAMA: 3D Keypoint Aware Body Mesh Articulation
+Standard vs. Learning-based Codecs for Real Time Endoscopic Video Transmission
+Extracting Triangular 3D Models, Materials, and Lighting From Images
+Noise-Aware Video Saliency Prediction
+Score-based Generative Modeling in Latent Space
+A Contrastive Learning Approach for Training Variational Autoencoder Priors
+Controllable and Compositional Generation with Latent-Space Energy-Based Models
+Don’t Generate Me: Training Differentially Private Generative Models with Sinkhorn Divergence
+Speckle-free holography with partially coherent light sources and camera-in-the-loop calibration
+Graph Learning-Based Arithmetic Block Identification
+Optimizing Selective Protection for CNN Resilience
+Improve Agents without Retraining: Parallel Tree Search with Off-Policy Correction
+Union: A Unified HW-SW Co-Design Ecosystem in MLIR for Evaluating Tensor Operations on Spatial Accelerators
+Compressing 1D Time-Channel Separable Convolutions using Sparse Random Ternary Matrices
+SiP-ML: high-bandwidth optical network interconnects for machine learning training
+Known unknowns: Learning novel concepts using exploratory reasoning-by-elimination
+Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles
+Improving Long-read Consensus Sequencing Accuracy with Deep Learning
+NeRF-Tex: Neural Reflectance Field Textures
+Neural Scene Graph Rendering
+Real-time Neural Radiance Caching for Path Tracing
+Learning to Track Instances without Video Annotations
+Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization
+One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing
+Weakly-Supervised Physically Unconstrained Gaze Estimation
+From local structures to size generalization in graph neural networks
+Controlling graph dynamics with reinforcement learning and graph neural networks
+VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models
+ACRONYM: A Large-Scale Grasp Dataset Based on Simulation
+Simba: scaling deep-learning inference with chiplet-based architecture
+Contrastive Syn-to-Real Generalization
+GAMMA: Exploiting Gustavson’s Algorithm to Accelerate Sparse Matrix Multiplication
+Appearance-Driven Automatic 3D Model Simplification
+VS-QUANT: Per-Vector Scaled Quantization for Accurate Low-Precision Neural Network Inference
+Auxiliary Learning by Implicit Differentiation
+On the Universality of Rotation Equivariant Point Cloud Networks
+Learning the Pareto Front with Hypernetworks
+Learning Sparse Matrix Row Permutations for Efficient SpMM on GPU Architectures
+Robust Vision-Based Cheat Detection in Competitive Gaming
+Interactive Path Tracing and Reconstruction of Sparse Volumes
+Deep Learning-based Enhancement of Epigenomics Data with AtacWorks
+Making Convolutions Resilient via Algorithm-Based Error Detection Techniques
+Heterogeneous Dataflow Accelerators for Multi-DNN Workloads
+MAVIREC: ML-Aided Vectored IR-Drop Estimation and Classification
+Parasitic-Aware Analog Circuit Sizing with Graph Neural Networks and Bayesian Optimization
+Planning and Learning with Adaptive Lookahead
+Federated Learning with Heterogeneous Architectures using Graph HyperNetworks
+Standard Cell Routing with Reinforcement Learning and Genetic Algorithm in Advanced Technology Nodes
+Self-Supervised Learning for Domain Adaptation on Point-Clouds
+From Generalized Zero-Shot Learning to Long-Tail with Class Descriptors
+Acting in Delayed Environments with Non-Stationary Markov Policies
+Flexion: A Quantitative Metric for Flexibility in DNN Accelerators
+NVCell: Generate Standard Cell Layout in Advanced Technology Nodes with Reinforcement Learning
+Online Adaptation for Consistent Mesh Reconstruction in the Wild
+Set2Graph: Learning Graphs From Sets
+Self-Learning Transformations for Improving Gaze and Head Redirection
+A Causal View of Compositional Zero-Shot Recognition
+Convolutional Tensor-Train LSTM for Spatio-Temporal Learning
+Variational Amodal Object Completion
+Training Generative Adversarial Networks with Limited Data
+Bongard-LOGO: A New Benchmark for Human-Level Concept Learning and Reasoning
+Neural Networks with Recurrent Generative Feedback
+Learning Deformable Tetrahedral Meshes for 3D Reconstruction
+Accelerating Reinforcement Learning through GPU Atari Emulation
+Neural FFTs for Universal Texture Image Synthesis
+Neural Control Variates
+ZEST: Zero-shot Learning from Text Descriptions using Textual Similarity and Visual Summarization
+Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles
+Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles
+Modular Primitives for High-Performance Differentiable Rendering
+Learning Object Permanence from Video
+A Programmable Approach to Neural Network Compression
+Accelerating Chip Design with Machine Learning
+HarDNN: Fine-Grained Vulnerability Evaluation and Protection for Convolutional Neural Networks
+UNAS: Differentiable Architecture Search Meets Reinforcement Learning
+UFO2: A Unified Framework towards Omni-supervised Object Detection
+Joint Disentangling and Adaptation for Cross-Domain Person Re-Identification
+World-Consistent Video-to-Video Synthesis
+Self-supervised Single-view 3D Reconstruction via Semantic Consistency
+Weakly-Supervised 3D Hand Pose Estimation via Biomechanical Constraints 
+ParaGraph: Layout Parasitics and Device Parameter Prediction using Graph Neural Networks
+Planaria: Dynamic Architecture Fission for Spatial Multi-Tenant Acceleration of Deep Neural Networks
+GRANNITE: Graph Neural Network Inference for Transferable Power Estimation
+Semi-Supervised StyleGAN for Disentanglement Learning
+Angular Visual Hardness
+On Learning Sets of Symmetric Elements
+Learning Algebraic Multigrid Using Graph Neural Networks
+NVAE: A Deep Hierarchical Variational Autoencoder
+Compositional Neural Scene Representations for Shading Inference
+ML-driven Malware that Targets AV Safety
+PyTorchFI: A Runtime Perturbation Tool for DNNs
+DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement
+Contrastive Learning for Weakly Supervised Phrase Grounding
+Instance-aware, Context-focused, and Memory-efficient Weakly Supervised Object Detection
+Regularizing Neural Networks via Minimizing Hyperspherical Energy
+Bi3D: Stereo Depth Estimation via Binary Classifications
+Meshlet Priors for 3D Mesh Reconstruction
+Monte Carlo Gradient Quantization
+Analyzing and Improving the Image Quality of StyleGAN
+Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths
+Self-Supervised Viewpoint Learning From Image Collections 
+Two-shot Spatially-varying BRDF and Shape Estimation
+Making Convolutions Resilient via Algorithm-Based Error Detection Techniques
+Learning Canonical Representations for Scene Graph to Image Generation
+Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs
+Self-supervised 6D Object Pose Estimation for Robot Manipulation
+An In-Network Architecture for Accelerating Shared-Memory Multiprocessor Collectives
+How to close sim-real gap? transfer with segmentation!
+ML-driven Malware that Targets AV Safety
+MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings
+Genome Variant Calling with a Deep Averaging Network
+SymGAN: Orientation Estimation without Annotation for Symmetric Objects
+Neurreg: Neural registration and its application to image segmentation
+HarDNN: Feature Map Vulnerability Evaluation in CNNs
+On the Distance between Two Neural Networks and the Stability of Learning
+Domain Stylization: A Fast Covariance Matching Framework towards Domain Adaptation
+A 0.32–128 TOPS, Scalable Multi-Chip-Module-Based Deep Neural Network Inference Accelerator With Ground-Referenced Signaling in 16 nm
+FIST: A Feature-Importance Sampling and Tree-Based Method for Automatic Design Flow Parameter Tuning
+PowerNet: Transferable Dynamic IR Drop Estimation via Maximum Convolutional Neural Network
+Few-Shot Video-to-Video Synthesis
+High-Quality Self-Supervised Deep Image Denoising
+Dance to Music
+Improved Precision and Recall Metric for Assessing Generative Models
+Instant Quantization of neural networks using Monte Carlo Methods
+Joint Optimization for Cooperative Image Captioning
+MAGNet: A Modular Accelerator Generator for Neural Networks
+Neural Inverse Rendering of an Indoor Scene from a Single Image
+Few-Shot Adaptive Gaze Estimation 
+Highly-scalable, Physics-informed GANs for Learning Solutions of Stochastic PDEs
+PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows
+Extreme View Synthesis
+Neural Turtle Graphics for Modeling City Road Layouts
+Meta-Sim: Learning to Generate Synthetic Datasets
+Confidence Regularized Self-Training
+Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture
+Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows: A Data-Centric Approach.
+A Billion Ways to Grasp: An Evaluation of Grasp Sampling Schemes on a Dense, Physics-based Grasp Data Set
+Video Stitching for Linear Camera Arrays
+GPU-Accelerated Atari Emulation for Reinforcement Learning
+ML-based Fault Injection for Autonomous Vehicles: A Case for Bayesian Fault Injection
+ML-based Fault Injection for Autonomous Vehicles: A Case for Bayesian Fault Injection
+Semantic Image Synthesis with Spatially-Adaptive Normalization
+Joint Discriminative and Generative Learning for Person Re-identification
+Neural RGB->D Sensing: Depth and Uncertainty from a Video Camera
+Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation
+STEP: Spatio-Temporal Progressive Learning for Video Action Detection
+PlaneRCNN: 3D Plane Detection and Reconstruction from a Single Image
+A Style-Based Generator Architecture for Generative Adversarial Networks
+Pixel-Adaptive Convolutional Neural Networks
+Importance Estimation for Neural Network Pruning
+A 0.11 pJ/Op, 0.32-128 TOPS, Scalable Multi-Chip-Module-based Deep Neural Network Accelerator with Ground-Reference Signaling in 16nm
+DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement
+High Performance Graph Convolutional Networks with Applications in Testability Analysis
+Analog/Mixed-Signal Hardware Error Modeling for Deep Learning Inference
+PRIMAL: Power Inference using Machine Learning
+Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs
+DeLTA: GPU Performance Model for Deep Learning Applications with In-depth Memory System Traffic Analysis
+Routability-Driven Macro Placement with Embedded CNN-Based Prediction Model
+Timeloop: A Systematic Approach to DNN Accelerator Evaluation
+Informative Object Annotations: Tell Me Something I Don't Know
+Rethinking full connectivity in recurrent neural networks
+Metaoptimization on a Distributed System for Deep Reinforcement Learning
+Unsupervised Stylish Image Description Generation via Domain Layer Norm
+Models Matter, So Does Training: An Empirical Study of CNNs for Optical Flow Estimation
+A Fusion Approach for Multi-Frame Optical Flow Estimation
+Mapping Images to Scene Graphs with Permutation-Invariant Structured Prediction
+Learning towards Minimum Hyperspherical Energy
+Exascale Deep Learning for Climate Analytics
+RouteNet: Routability Prediction for Mixed-size Designs using Convolutional Neural Network
+Hand Pose Estimation via Latent 2.5 D Heatmap Regression
+Tackling 3D ToF Artifacts Through Learning and the FLAT Dataset
+Learning Rigidity in Dynamic Scenes with a Moving Camera for 3D Motion Field Estimation
+Switchable Temporal Propagation Network 
+Image Inpainting for Irregular Holes Using Partial Convolutions
+Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training
+Multimodal Unsupervised Image-to-Image Translation
+A Closed-form Solution to Photorealistic Image Stylization
+Superpixel Sampling Networks
+Machine Learning and Rendering
+Noise2Noise: Learning Image Restoration without Clean Data
+Light-weight Head Pose Invariant Gaze Tracking 
+MoCoGAN: Decomposing Motion and Content for Video Generation
+Improving Landmark Localization with Semi-Supervised Learning
+Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals
+Learning Strict Identity Mappings in Deep Residual Networks
+PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume
+SPLATNet: Sparse Lattice Networks for Point Cloud Processing
+Deep Semantic Face Deblurring
+High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs
+Decoupled Networks
+Geometry-Aware Learning of Maps for Camera Localization
+Making Convolutional Networks Recurrent for Visual Sequence Learning
+UCNN: Exploiting Computational Reuse in Deep Neural Networks via Weight Repetition
+Structurally Sparsified Backward Propagation for Faster Long Short-Term Memory Training
+Probabilistic AND-OR Attribute Grouping for Zero-Shot Learning
+Reblur2Deblur: Deblurring Videos via Self-Supervised Learning
+Progressive Growing of GANs for Improved Quality, Stability, and Variation
+IamNN: Iterative and Adaptive Mobile Neural Network for Efficient Image Classification
+Synchronous Multi-GPU Deep Learning with Low-Precision Communication: An Experimental Study
+Compressing DMA Engine: Leveraging Activation Sparsity for Training Deep Neural Networks
+Stitch-X: An Accelerator Architecture for Exploiting Unstructured Sparsity in Deep Neural Networks
+Learning Binary Residual Representations for Domain-specific Video Streaming
+Learning Adaptive Parameter Tuning for Image Processing
+Parallel Complexity of Forward and Backward Propagation
+Integral Equations and Machine Learning
+AdaBatch: Adaptive Batch Sizes for Training Deep Neural Networks
+Unsupervised Image-to-Image Translation Networks
+Learning Affinity via Spatial Propagation Networks 
+Understanding Error Propagation in Deep Learning Neural Network (DNN) Accelerators and Applications
+Parallel Jaccard and Related Graph Clustering Techniques
+Learning to Super-Resolve Blurry Face and Text Images
+A Lightweight Approach for On-the-Fly Reflectance Estimation
+Group online adaptive learning
+Feedforward and Recurrent Neural Networks Backward Propagation and Hessian in Matrix Form
+Tactics of Adversarial Attack on Deep Reinforcement Learning Agents
+Audio-Driven Facial Animation by Joint End-to-End Learning of Pose and Emotion
+Parallel Modularity Clustering
+SCNN: An Accelerator for Compressed-sparse Convolutional Neural Networks
+Pruning Convolutional Neural Networks for Resource Efficient Inference
+Context-aware Captions from Context-agnostic Supervision
+Learning From Noisy Large-Scale Datasets With Minimal Supervision
+Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU
+Loss Functions for Image Restoration with Neural Networks
+Tensor Contractions with Extended BLAS Kernels on CPU and GPU
+Reinforcement Learning through Asynchronous Advantage Actor-Critic on a GPU
+vDNN: Virtualized Deep Neural Networks for Scalable, Memory-Efficient Neural Network Design.
+Temporal Ensembling for Semi-Supervised Learning
+Multilayer and Multimodal Fusion of Deep Neural Networks for Video Classification
+Learning to generalize to new compositions in image understanding
+Towards Selecting Robust Hand Gestures for Automotive Interfaces
+Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
+Online Detection and Classification of Dynamic Hand Gestures with Recurrent 3D Convolutional Neural Networks 
+Parallel Spectral Graph Partitioning
+vDNN: Virtualized Deep Neural Networks for Scalable, Memory-Efficient Neural Network Design
+Learning Sparse Metrics, One Feature at a Time
+Compressing Neural Networks with the Hashing Trick
+Hand Gesture Recognition with 3D Convolutional Neural Networks 
+Multi-sensor System for Driver’s Hand-Gesture Recognition 
+Short-Range FMCW Monopulse Radar for Hand-Gesture Sensing 
+Adaptive Segmentation based on a Learned Quality Metric
+Machine Learning for Adaptive Bilateral Filtering
+cuDNN: Efficient Primitives for Deep Learning
+Graph Positional Encoding via Random Feature Propagation
+MesoGAN: Generative Neural Reflectance Shells

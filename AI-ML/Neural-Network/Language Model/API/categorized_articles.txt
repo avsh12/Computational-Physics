@@ -1,0 +1,936 @@
+categorized_articles = {
+    "Generative AI & Multimodal Synthesis": [
+        {
+            "title": "Align Your Flow: Scaling Continuous-Time Flow Map Distillation",
+            "link": "https://research.nvidia.com/index.php/publication/2025-12_align-your-flow-scaling-continuous-time-flow-map-distillation"
+        },
+        {
+            "title": "Elucidated Rolling Diffusion Models for Probabilistic Weather Forecasting",
+            "link": "https://research.nvidia.com/publication/2025-12_elucidated-rolling-diffusion-models-probabilistic-weather-forecasting"
+        },
+        {
+            "title": "Task-Oriented Human Grasp Synthesis via Context- and Task-Aware Diffusers",
+            "link": "https://research.nvidia.com/publication/2025-10_task-oriented-human-grasp-synthesis-context-and-task-aware-diffusers"
+        },
+        {
+            "title": "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control",
+            "link": "https://research.nvidia.com/publication/2025-08_gen3c-3d-informed-world-consistent-video-generation-precise-camera-control"
+        },
+        {
+            "title": "Generative Detail Enhancement for Physically Based Materials",
+            "link": "https://research.nvidia.com/publication/2025-07_generative-detail-enhancement-physically-based-materials"
+        },
+        {
+            "title": "Score-based Diffusion Models in Function Space",
+            "link": "https://research.nvidia.com/index.php/publication/2025-07_score-based-diffusion-models-function-space"
+        },
+        {
+            "title": "Make It Count: Text-to-Image Generation with an Accurate Number of Objects",
+            "link": "https://research.nvidia.com/index.php/publication/2025-06_make-it-count-text-image-generation-accurate-number-objects"
+        },
+        {
+            "title": "Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models, ",
+            "link": "https://research.nvidia.com/publication/2025-04_lightning-fast-image-inversion-and-editing-text-image-diffusion-models"
+        },
+        {
+            "title": "Add-it: Training-Free Object Insertion in Images via Pretrained Diffusion Models",
+            "link": "https://research.nvidia.com/publication/2025-04_add-it-training-free-object-insertion-images-pretrained-diffusion-models"
+        },
+        {
+            "title": "Multi-student Diffusion Distillation for Better One-step Generators",
+            "link": "https://research.nvidia.com/publication/2025-03_multi-student-diffusion-distillation-better-one-step-generators"
+        },
+        {
+            "title": "LLaMA-Mesh: Unifying 3D Mesh Generation with Language Models",
+            "link": "https://research.nvidia.com/publication/2025-03_llama-mesh-unifying-3d-mesh-generation-language-models"
+        },
+        {
+            "title": "CorrFill: Enhancing Faithfulness in Reference-based Inpainting with Correspondence Guidance in Diffusion Models",
+            "link": "https://research.nvidia.com/publication/2025-02_corrfill-enhancing-faithfulness-reference-based-inpainting-correspondence"
+        },
+        {
+            "title": "GRS: Generating robotic simulation tasks from real-world images",
+            "link": "https://research.nvidia.com/publication/2025-06_grs-generating-robotic-simulation-tasks-real-world-images-0"
+        }
+    ],
+    "Robotics & Autonomous Systems": [
+        {
+            "title": "Generalizable Domain Adaptation for Sim-and-Real Policy Co-Training",
+            "link": "https://research.nvidia.com/publication/2025-12_generalizable-domain-adaptation-sim-and-real-policy-co-training"
+        },
+        {
+            "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+            "link": "https://research.nvidia.com/publication/2025-12_thinkact-vision-language-action-reasoning-reinforced-visual-latent-planning"
+        },
+        {
+            "title": "Alpamayo-R1: Bridging Reasoning and Action Prediction for Generalizable Autonomous Driving in the Long Tail",
+            "link": "https://research.nvidia.com/publication/2025-10_alpamayo-r1"
+        },
+        {
+            "title": "Isaac Lab: A GPU Accelerated Simulation Framework For Multi-Modal Robot Learning",
+            "link": "https://research.nvidia.com/publication/2025-09_isaac-lab-gpu-accelerated-simulation-framework-multi-modal-robot-learning"
+        },
+        {
+            "title": "Learning to Plan & Schedule with Reinforcement-Learned Bimanual Robot Skills",
+            "link": "https://research.nvidia.com/publication/2025-09_learning-plan-schedule-reinforcement-learned-bimanual-robot-skills"
+        },
+        {
+            "title": "NVIDIA Isaac GR00T N1: An Open Foundation Model for Humanoid Robots",
+            "link": "https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots"
+        },
+        {
+            "title": "scene_synthesizer: A Python Library for Procedural Scene Generation in Robot Manipulation",
+            "link": "https://research.nvidia.com/publication/2025-01_scenesynthesizer-python-library-procedural-scene-generation-robot-manipulation"
+        }
+    ],
+    "Large Language Models (LLMs) & Reasoning": [
+        {
+            "title": "FVDebug: An LLM-Driven Debugging Assistant for Automated Root Cause Analysis of Formal Verification Failures",
+            "link": "https://research.nvidia.com/publication/2025-09_fvdebug-llm-driven-debugging-assistant-automated-root-cause-analysis-formal"
+        },
+        {
+            "title": "Helix Parallelism: Rethinking Sharding Strategies for Interactive Multi-Million-Token LLM Decoding",
+            "link": "https://research.nvidia.com/publication/2025-07_helix-parallelism-rethinking-sharding-strategies-interactive-multi-million"
+        },
+        {
+            "title": "SLIM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression",
+            "link": "https://research.nvidia.com/publication/2025-06_slim-one-shot-quantization-and-sparsity-low-rank-approximation-llm-weight"
+        },
+        {
+            "title": "LongVILA: Scaling Long-Context Visual Language Models for Long Videos",
+            "link": "https://research.nvidia.com/publication/2025-04_longvila-scaling-long-context-visual-language-models-long-videos"
+        },
+        {
+            "title": "Hymba: A Hybrid-head Architecture for Small Language Models",
+            "link": "https://research.nvidia.com/publication/2025-04_hymba-hybrid-head-architecture-small-language-models"
+        },
+        {
+            "title": "Audio Large Language Models Can Be Descriptive Speech Quality Evaluators",
+            "link": "https://research.nvidia.com/publication/2025-04_audio-large-language-models-can-be-descriptive-speech-quality-evaluators"
+        }
+    ],
+    "Computer Vision & Graphics": [
+        {
+            "title": "Assessing Learned Models for Phase-only Hologram Compression",
+            "link": "https://research.nvidia.com/publication/2025-08_assessing-learned-models-phase-only-hologram-compression"
+        },
+        {
+            "title": "Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds",
+            "link": "https://research.nvidia.com/publication/2025-06_adapting-unknown-training-free-audio-visual-event-perception-dynamic-thresholds"
+        },
+        {
+            "title": "TriTex: Learning Texture from a Single Mesh via Triplane Semantic Features",
+            "link": "https://research.nvidia.com/publication/2025-06_tritex-learning-texture-single-mesh-triplane-semantic-features"
+        },
+        {
+            "title": "RL-RC-DoT: A Block-level RL agent for Task-Aware Video Compression",
+            "link": "https://research.nvidia.com/publication/2025-06_rl-rc-dot-block-level-rl-agent-task-aware-video-compression"
+        },
+        {
+            "title": "Latent Action Pretraining from Videos",
+            "link": "https://research.nvidia.com/publication/2025-04_latent-action-pretraining-videos"
+        },
+        {
+            "title": "Spatio-Temporal Context Prompting for Zero-Shot Action Detection",
+            "link": "https://research.nvidia.com/index.php/publication/2025-02_spatio-temporal-context-prompting-zero-shot-action-detection"
+        },
+        {
+            "title": "Semantic Prompt Learning for Weakly-Supervised Semantic Segmentation",
+            "link": "https://research.nvidia.com/publication/2025-02_semantic-prompt-learning-weakly-supervised-semantic-segmentation"
+        }
+    ],
+    "AI for Scientific Discovery": [
+        {
+            "title": "Augmenting Simulated Noisy Quantum Data Collection by Orders of Magnitude Using Pre-Trajectory Sampling with Batched Execution",
+            "link": "https://research.nvidia.com/publication/2025-11_augmenting-simulated-noisy-quantum-data-collection-orders-magnitude-using-pre"
+        },
+        {
+            "title": "Huge ensembles–Part 1: Design of ensemble weather forecasts using spherical Fourier neural operators",
+            "link": "https://research.nvidia.com/publication/2025-09_huge-ensembles-part-1-design-ensemble-weather-forecasts-using-spherical-fourier"
+        },
+        {
+            "title": "Huge ensembles – Part 2: Properties of a huge ensemble of hindcasts generated with spherical Fourier neural operators",
+            "link": "https://research.nvidia.com/publication/2025-09_huge-ensembles-part-2-properties-huge-ensemble-hindcasts-generated-spherical"
+        },
+        {
+            "title": "FourCastNet 3: A geometric approach to probabilistic machine-learning weather forecasting at scale",
+            "link": "https://research.nvidia.com/publication/2025-07_fourcastnet-3-geometric-approach-probabilistic-machine-learning-weather"
+        },
+        {
+            "title": "Efficient Molecular Conformer Generation with SO(3)-Averaged Flow Matching and Reflow",
+            "link": "https://research.nvidia.com/index.php/publication/2025-07_efficient-molecular-conformer-generation-so3-averaged-flow-matching-and-reflow"
+        },
+        {
+            "title": "GenMol: A Drug Discovery Generalist with Discrete Diffusion",
+            "link": "https://research.nvidia.com/publication/2025-07_genmol-drug-discovery-generalist-discrete-diffusion"
+        }
+    ],
+    "Reinforcement Learning & Planning": [
+        {
+            "title": "SoftTreeMax: Policy Gradient via tree expansion ",
+            "link": "https://research.nvidia.com/publication/2025-02_softtreemax-policy-gradient-tree-expansion"
+        }
+    ],
+    "Hardware & Systems Design with AI": [
+        {
+            "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
+            "link": "https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using"
+        },
+        {
+            "title": "AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL",
+            "link": "https://research.nvidia.com/publication/2025-06_assertionforge-enhancing-formal-verification-assertion-generation-structured"
+        },
+        {
+            "title": "Marco: Configurable Graph-Based Task Solving and Multi-AI Agents Framework for Hardware Design",
+            "link": "https://research.nvidia.com/publication/2025-06_marco-configurable-graph-based-task-solving-and-multi-ai-agents-framework"
+        },
+        {
+            "title": "Beyond the Buzz: A Pragmatic Take on Inference Disaggregation",
+            "link": "https://research.nvidia.com/publication/2025-06_beyond-buzz-pragmatic-take-inference-disaggregation"
+        }
+    ],
+    "Core AI/ML Research & Architectures": [
+        {
+            "title": "Attention on the Sphere",
+            "link": "https://research.nvidia.com/publication/2025-11_attention-sphere"
+        },
+        {
+            "title": "MambaVision: A Hybrid Mamba-Transformer Vision Backbone",
+            "link": "https://research.nvidia.com/index.php/publication/2025-06_mambavision-hybrid-mamba-transformer-vision-backbone"
+        },
+        {
+            "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+            "link": "https://research.nvidia.com/publication/2025-04_gated-delta-networks-improving-mamba2-delta-rule"
+        },
+        {
+            "title": "Towards Neural Scaling Laws for Time Series Foundation Models",
+            "link": "https://research.nvidia.com/publication/2025-04_towards-neural-scaling-laws-time-series-foundation-models"
+        }
+    ],
+    "Audio & Speech Processing": [
+        {
+            "title": "VoiceNoNG: Robust High-Quality Speech Editing Model without Hallucinations",
+            "link": "https://research.nvidia.com/publication/2025-08_voicenong-robust-high-quality-speech-editing-model-without-hallucinations"
+        },
+        {
+            "title": "Score Distillation Sampling for Audio: Source Separation, Synthesis, and Beyond",
+            "link": "https://research.nvidia.com/publication/2025-05_score-distillation-sampling-audio-source-separation-synthesis-and-beyond"
+        }
+    ],
+    "Applied AI & Emerging Fields": [
+        {
+            "title": "Fly, Fail, Fix: Iterative Game Repair with Reinforcement Learning and Large Multimodal Models",
+            "link": "https://research.nvidia.com/index.php/publication/2025-08_fly-fail-fix-iterative-game-repair-reinforcement-learning-and-large-multimodal"
+        },
+        {
+            "title": "Design of a Standard-Compliant Real-Time Neural Receiver for 5G NR",
+            "link": "https://research.nvidia.com/publication/2025-05_design-standard-compliant-real-time-neural-receiver-5g-nr"
+        },
+        {
+            "title": "eXtended Reality and Artificial Intelligence in Medicine and Rehabilitation",
+            "link": "https://research.nvidia.com/publication/2025-01_extended-reality-and-artificial-intelligence-medicine-and-rehabilitation"
+        }
+    ]
+}
+
+categorized_articles = {
+    "Generative Models: Diffusion (Theory & Methods)": [
+        {
+            "title": "Truncated Consistency Models",
+            "link": "https://research.nvidia.com/index.php/publication/2025-01_truncated-consistency-models"
+        },
+        {
+            "title": "Align Your Steps: Optimizing Sampling Schedules in Diffusion Models",
+            "link": "https://research.nvidia.com/publication/2024-07_align-your-steps-optimizing-sampling-schedules-diffusion-models"
+        },
+        {
+            "title": "DisCo-Diff: Enhancing Continuous Diffusion Models with Discrete Latents",
+            "link": "https://research.nvidia.com/index.php/publication/2024-07_disco-diff-enhancing-continuous-diffusion-models-discrete-latents"
+        }
+    ],
+    "Generative Models: Vision & Graphics": [
+        {
+            "title": "L4GM: Large 4D Gaussian Reconstruction Model",
+            "link": "https://research.nvidia.com/publication/2024-12_l4gm-large-4d-gaussian-reconstruction-model"
+        },
+        {
+            "title": "Warped Diffusion: Solving Video Inverse Problems with Image Diffusion Models",
+            "link": "https://research.nvidia.com/publication/2024-12_warped-diffusion-solving-video-inverse-problems-image-diffusion-models"
+        },
+        {
+            "title": "ReMatching Dynamic Reconstruction Flow",
+            "link": "https://research.nvidia.com/publication/2024-11_rematching-dynamic-reconstruction-flow"
+        },
+        {
+            "title": "DiffiT: Diffusion Vision Transformers for Image Generation",
+            "link": "https://research.nvidia.com/publication/2024-09_diffit-diffusion-vision-transformers-image-generation"
+        },
+        {
+            "title": "Align Your Gaussians: Text-to-4D with Dynamic 3D Gaussians and Composed Diffusion Models",
+            "link": "https://research.nvidia.com/publication/2024-06_align-your-gaussians-text-4d-dynamic-3d-gaussians-and-composed-diffusion-models"
+        },
+        {
+            "title": "Outdoor Scene Extrapolation with Hierarchical Generative Cellular Automata",
+            "link": "https://research.nvidia.com/publication/2024-06_outdoor-scene-extrapolation-hierarchical-generative-cellular-automata"
+        },
+        {
+            "title": "WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space",
+            "link": "https://research.nvidia.com/publication/2024-05_wildfusion-learning-3d-aware-latent-diffusion-models-view-space"
+        },
+        {
+            "title": "LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis",
+            "link": "https://research.nvidia.com/publication/2024-03_latte3d-large-scale-amortized-text-enhanced3d-synthesis"
+        }
+    ],
+    "Generative Models: Text & Language": [
+        {
+            "title": "Energy-Based Diffusion Language Models for Text Generation",
+            "link": "https://research.nvidia.com/publication/2025-01_energy-based-diffusion-language-models-text-generation"
+        }
+    ],
+    "Generative Models: Molecular & Biological": [
+        {
+            "title": "ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids",
+            "link": "https://research.nvidia.com/publication/2025-01_protcomposer-compositional-protein-structure-generation-3d-ellipsoids"
+        },
+        {
+            "title": "Proteina: Scaling Flow-based Protein Structure Generative Models",
+            "link": "https://research.nvidia.com/publication/2025-01_proteina-scaling-flow-based-protein-structure-generative-models"
+        },
+        {
+            "title": "Molecule Generation with Fragment Retrieval Augmentation",
+            "link": "https://research.nvidia.com/publication/2024-12_molecule-generation-fragment-retrieval-augmentation"
+        },
+        {
+            "title": "Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization",
+            "link": "https://research.nvidia.com/publication/2024-12_aligning-target-aware-molecule-diffusion-models-exact-energy-optimization"
+        }
+    ],
+    "Generative Models: Scientific & Abstract": [
+        {
+            "title": "Directed Graph Generation with Heat Kernels",
+            "link": "https://research.nvidia.com/publication/2025-01_directed-graph-generation-heat-kernels"
+        },
+        {
+            "title": "FactorSim: Generative Simulation via Factorized Representation",
+            "link": "https://research.nvidia.com/publication/2024-12_factorsim-generative-simulation-factorized-representation"
+        },
+        {
+            "title": "Interventional Data Generation for Robust and Data-Efficient Robot Imitation Learning",
+            "link": "https://research.nvidia.com/publication/2024-10_interventional-data-generation-robust-and-data-efficient-robot-imitation"
+        },
+        {
+            "title": "Kilometer-Scale Convection Allowing Model Emulation using Generative Diffusion Modeling",
+            "link": "https://research.nvidia.com/publication/2024-08_kilometer-scale-convection-allowing-model-emulation-using-generative-diffusion"
+        }
+    ],
+    "Large Language Models (LLMs) & NLP": [
+        {
+            "title": "DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent",
+            "link": "https://research.nvidia.com/publication/2024-11_drc-coder-automated-drc-checker-code-generation-using-llm-autonomous-agent"
+        },
+        {
+            "title": "LLM Pruning and Distillation in Practice: The Minitron Approach",
+            "link": "https://research.nvidia.com/publication/2024-08_llm-pruning-and-distillation-practice-minitron-approach"
+        },
+        {
+            "title": "VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool",
+            "link": "https://research.nvidia.com/publication/2024-08_verilogcoder-autonomous-verilog-coding-agents-graph-based-planning-and-abstract"
+        },
+        {
+            "title": "GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators",
+            "link": "https://research.nvidia.com/publication/2024-08_gentranslate-large-language-models-are-generative-multilingual-speech-and"
+        },
+        {
+            "title": "Large Language Model (LLM) for Standard Cell Layout Design Optimization",
+            "link": "https://research.nvidia.com/publication/2024-06_large-language-model-llm-standard-cell-layout-design-optimization"
+        },
+        {
+            "title": "Nemotron-4 340B",
+            "link": "https://research.nvidia.com/index.php/publication/2024-06_nemotron-4-340b"
+        },
+        {
+            "title": "An Empirical Study of Mamba-based Language Models",
+            "link": "https://research.nvidia.com/publication/2024-06_empirical-study-mamba-based-language-models"
+        },
+        {
+            "title": "Large Language Models are Efficient Learners of Noise-Robust Speech Recognition",
+            "link": "https://research.nvidia.com/index.php/publication/2024-05_large-language-models-are-efficient-learners-noise-robust-speech-recognition"
+        },
+        {
+            "title": "It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition",
+            "link": "https://research.nvidia.com/publication/2024-05_it-s-never-too-late-fusing-acoustic-information-large-language-models-automatic"
+        }
+    ],
+    "Robotics & Autonomous Systems": [
+        {
+            "title": "Diffusion-Reward Adversarial Imitation Learning",
+            "link": "https://research.nvidia.com/publication/2024-12_diffusion-reward-adversarial-imitation-learning"
+        },
+        {
+            "title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting",
+            "link": "https://research.nvidia.com/index.php/publication/2024-12_maskedmimic-unified-physics-based-character-control-through-masked-motion"
+        },
+        {
+            "title": "Differentiable GPU-Parallelized Task and Motion Planning",
+            "link": "https://research.nvidia.com/index.php/publication/2024-11_differentiable-gpu-parallelized-task-and-motion-planning"
+        },
+        {
+            "title": "SPIRE: Synergistic Planning, Imitation, and Reinforcement Learning for Long-Horizon Manipulation",
+            "link": "https://research.nvidia.com/publication/2024-11_spire-synergistic-planning-imitation-and-reinforcement-learning-long-horizon"
+        },
+        {
+            "title": "NOD-TAMP: Generalizable Long-Horizon Planning with Neural Object Descriptors",
+            "link": "https://research.nvidia.com/index.php/publication/2024-11_nod-tamp-generalizable-long-horizon-planning-neural-object-descriptors"
+        },
+        {
+            "title": "SkillGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+            "link": "https://research.nvidia.com/publication/2024-11_skillgen-automated-demonstration-generation-efficient-skill-learning-and"
+        },
+        {
+            "title": "Guiding Long-Horizon Task and Motion Planning with Vision Language Models",
+            "link": "https://research.nvidia.com/publication/2024-11_guiding-long-horizon-task-and-motion-planning-vision-language-models"
+        },
+        {
+            "title": "Open-World Task and Motion Planning via Vision-Language Model Inferred Constraints",
+            "link": "https://research.nvidia.com/publication/2024-11_open-world-task-and-motion-planning-vision-language-model-inferred-constraints"
+        },
+        {
+            "title": "HAMSTER: Hierarchical Action Models for Open-World Robot Manipulation",
+            "link": "https://research.nvidia.com/index.php/publication/2024-11_hamster-hierarchical-action-models-open-world-robot-manipulation"
+        },
+        {
+            "title": "DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability",
+            "link": "https://research.nvidia.com/index.php/publication/2024-10_dimsam-diffusion-models-samplers-task-and-motion-planning-under-partial"
+        }
+    ],
+    "Neural Network Architectures & Learning Methods": [
+        {
+            "title": "Conformer without Convolutions",
+            "link": "https://research.nvidia.com/publication/2024-09_conformer-without-convolutions"
+        },
+        {
+            "title": "DoRA: Weight-Decomposed Low-Rank Adaptation",
+            "link": "https://research.nvidia.com/publication/2024-07_dora-weight-decomposed-low-rank-adaptation"
+        },
+        {
+            "title": "Neural operators with localized integral and differential kernels",
+            "link": "https://research.nvidia.com/publication/2024-07_neural-operators-localized-integral-and-differential-kernels"
+        },
+        {
+            "title": "Improving Hyperparameter Optimization with Checkpointed Model Weights",
+            "link": "https://research.nvidia.com/publication/2024-06_improving-hyperparameter-optimization-checkpointed-model-weights"
+        },
+        {
+            "title": "FasterViT: Fast Vision Transformers with Hierarchical Attention",
+            "link": "https://research.nvidia.com/publication/2024-05_fastervit-fast-vision-transformers-hierarchical-attention"
+        }
+    ],
+    "Scientific Computing & Physical AI": [
+        {
+            "title": "Pretraining codomain attention neural operators for solving multiphysics pdes",
+            "link": "https://research.nvidia.com/publication/2024-12_pretraining-codomain-attention-neural-operators-solving-multiphysics-pdes"
+        },
+        {
+            "title": "Learning Radio Environments by Differentiable Ray Tracing",
+            "link": "https://research.nvidia.com/publication/2024-10_learning-radio-environments-differentiable-ray-tracing"
+        }
+    ],
+    "Electronic Design Automation (EDA)": [
+        {
+            "title": "Learning to Compare Hardware Designs for High-Level Synthesis",
+            "link": "https://research.nvidia.com/publication/2024-05_learning-compare-hardware-designs-high-level-synthesis"
+        }
+    ],
+    "Speech & Audio Processing": [
+        {
+            "title": "Detecting the Undetectable: Assessing the Efficacy of Current Spoof Detection Methods Against Seamless Speech Edits",
+            "link": "https://research.nvidia.com/index.php/publication/2024-12_detecting-undetectable-assessing-efficacy-current-spoof-detection-methods"
+        }
+    ],
+    "Game AI & Simulation": [
+        {
+            "title": "Learning to Move Like Professional Counter-Strike Players",
+            "link": "https://research.nvidia.com/publication/2024-09_learning-move-professional-counter-strike-players"
+        },
+        {
+            "title": "Experimenting with Artificial Intelligence: Programming Pathfinding Algorithms in C++ with Unreal Engine 5",
+            "link": "https://research.nvidia.com/publication/2024-07_experimenting-artificial-intelligence-programming-pathfinding-algorithms-c"
+        }
+    ],
+    "Augmented Reality & Displays": [
+        {
+            "title": "Full-colour 3D holographic augmented-reality displays with metasurface waveguides",
+            "link": "https://research.nvidia.com/publication/2024-05_full-colour-3d-holographic-augmented-reality-displays-metasurface-waveguides"
+        }
+    ],
+    "Design & Engineering": [
+        {
+            "title": "Constructability-driven design of frame structures with state-space search methods",
+            "link": "https://research.nvidia.com/index.php/publication/2024-11_constructability-driven-design-frame-structures-state-space-search-methods"
+        }
+    ],
+    "Foundation Models & AI Platforms": [
+        {
+            "title": "Cosmos World Foundation Model Platform for Physical AI",
+            "link": "https://research.nvidia.com/index.php/publication/2025-01_cosmos-world-foundation-model-platform-physical-ai"
+        }
+    ]
+}
+
+categorized_articles = {
+    "Generative AI": {
+        "Image & Video Synthesis": [
+            {
+                "title": "ConsiStory: Training-Free Consistent Text-to-Image Generation",
+                "link": "https://research.nvidia.com/publication/2024-02_consistory-training-free-consistent-text-image-generation"
+            },
+            {
+                "title": "Interactive Texture Painting with Generative AI",
+                "link": "https://research.nvidia.com/publication/2024-01_interactive-texture-painting-generative-ai"
+            },
+            {
+                "title": "Generating images of rare concepts using pre-trained diffusion models",
+                "link": "https://research.nvidia.com/publication/2024-01_generating-images-rare-concepts-using-pre-trained-diffusion-models"
+            },
+            {
+                "title": "DreamTeacher: Pretraining Image Backbones with Deep Generative Models",
+                "link": "https://research.nvidia.com/publication/2023-10_dreamteacher-pretraining-image-backbones-deep-generative-models"
+            },
+            {
+                "title": "Syntactic Binding in Diffusion Models: Enhancing Attribute Correspondence through Attention Map Alignment",
+                "link": "https://research.nvidia.com/index.php/publication/2023-10_syntactic-binding-diffusion-models-enhancing-attribute-correspondence-through"
+            },
+            {
+                "title": "Norm-guided latent space exploration for text-to-image generation",
+                "link": "https://research.nvidia.com/publication/2023-10_norm-guided-latent-space-exploration-text-image-generation"
+            },
+            {
+                "title": "Online Overexposed Pixels Hallucination in Videos with Adaptive Reference Frame Selection",
+                "link": "https://research.nvidia.com/index.php/publication/2023-08_online-overexposed-pixels-hallucination-videos-adaptive-reference-frame"
+            },
+            {
+                "title": "Key-Locked Rank One Editing for Text-to-Image Personalization",
+                "link": "https://research.nvidia.com/publication/2023-08_key-locked-rank-one-editing-text-image-personalization"
+            },
+            {
+                "title": "A Hybrid Generator Architecture for Controllable Face Synthesis",
+                "link": "https://research.nvidia.com/index.php/publication/2023-08_hybrid-generator-architecture-controllable-face-synthesis"
+            },
+            {
+                "title": "Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models",
+                "link": "https://research.nvidia.com/publication/2023-08_encoder-based-domain-tuning-fast-personalization-text-image-models"
+            }
+        ],
+        "3D Synthesis & Neural Rendering": [
+            {
+                "title": "Compact Neural Graphics Primitives with Learned Hash Probing",
+                "link": "https://research.nvidia.com/publication/2023-12_compact-neural-graphics-primitives-learned-hash-probing"
+            },
+            {
+                "title": "Point-Cloud Completion with Pretrained Text-to-image Diffusion Models",
+                "link": "https://research.nvidia.com/publication/2023-12_point-cloud-completion-pretrained-text-image-diffusion-models"
+            },
+            {
+                "title": "SceneScape: Text-Driven Consistent Scene Generation",
+                "link": "https://research.nvidia.com/publication/2023-12_scenescape-text-driven-consistent-scene-generation"
+            },
+            {
+                "title": "XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies",
+                "link": "https://research.nvidia.com/publication/2023-12_xcube-large-scale-3d-generative-modeling-using-sparse-voxel-hierarchies"
+            },
+            {
+                "title": "Adaptive Shells for Efficient Neural Radiance Field Rendering",
+                "link": "https://research.nvidia.com/publication/2023-12_adaptive-shells-efficient-neural-radiance-field-rendering"
+            },
+            {
+                "title": "TexFusion: Synthesizing 3D Textures with Text-Guided Image Diffusion Models",
+                "link": "https://research.nvidia.com/publication/2023-10_texfusion-synthesizing-3d-textures-text-guided-image-diffusion-models"
+            },
+            {
+                "title": "ATT3D: Amortized Text-To-3D Object Synthesis",
+                "link": "https://research.nvidia.com/index.php/publication/2023-10_att3d-amortized-text-3d-object-synthesis"
+            },
+            {
+                "title": "Generative Novel View Synthesis with 3D-Aware Diffusion Models",
+                "link": "https://research.nvidia.com/index.php/publication/2023-10_generative-novel-view-synthesis-3d-aware-diffusion-models"
+            },
+            {
+                "title": "Live 3D Portrait: Real-Time Radiance Fields for Single-Image Portrait View Synthesis",
+                "link": "https://research.nvidia.com/publication/2023-08_live-3d-portrait-real-time-radiance-fields-single-image-portrait-view-synthesis"
+            },
+            {
+                "title": "SSIF: Single-shot Implicit Morphable Faces With Consistent Texture Parameterization",
+                "link": "https://research.nvidia.com/publication/2023-08_ssif-single-shot-implicit-morphable-faces-consistent-texture-parameterization"
+            },
+            {
+                "title": "Interactive AI Material Generation and Editing in NVIDIA Omniverse",
+                "link": "https://research.nvidia.com/index.php/publication/2023-07_interactive-ai-material-generation-and-editing-nvidia-omniverse"
+            }
+        ],
+        "Language & Speech": [
+            {
+                "title": "HyPoradise: An Open Baseline for Generative Speech Recognition with Large Language Models",
+                "link": "https://research.nvidia.com/publication/2023-12_hyporadise-open-baseline-generative-speech-recognition-large-language-models"
+            },
+            {
+                "title": "Whispering LLaMA: A Cross-Modal Generative Error Correction Framework for Speech Recognition",
+                "link": "https://research.nvidia.com/publication/2023-12_whispering-llama-cross-modal-generative-error-correction-framework-speech"
+            }
+        ]
+    },
+    "Machine Learning Fundamentals & Applications": {
+        "Core Models, Theory & Data": [
+            {
+                "title": "Convolutional State Space Models for Long-Range Spatiotemporal Modeling",
+                "link": "https://research.nvidia.com/publication/2023-12_convolutional-state-space-models-long-range-spatiotemporal-modeling"
+            },
+            {
+                "title": "Graph Metanetworks for Processing Diverse Neural Architectures",
+                "link": "https://research.nvidia.com/publication/2023-12_graph-metanetworks-processing-diverse-neural-architectures"
+            },
+            {
+                "title": "2D-3D Interlaced Transformer for Point Cloud Segmentation with Scene-Level Supervision",
+                "link": "https://research.nvidia.com/publication/2023-10_2d-3d-interlaced-transformer-point-cloud-segmentation-scene-level-supervision"
+            },
+            {
+                "title": "Differentially Private Diffusion Models",
+                "link": "https://research.nvidia.com/publication/2023-08_differentially-private-diffusion-models"
+            },
+            {
+                "title": "Data Free Learning of Reduced-Order Kinematics",
+                "link": "https://research.nvidia.com/publication/2023-08_data-free-learning-reduced-order-kinematics"
+            },
+            {
+                "title": "IGB: Addressing The Gaps In Labeling, Features, Heterogeneity, and Size of Public Graph Datasets for Deep Learning Research",
+                "link": "https://research.nvidia.com/publication/2023-08_igb-addressing-gaps-labeling-features-heterogeneity-and-size-public-graph"
+            },
+            {
+                "title": "Guided Deep Kernel Learning",
+                "link": "https://research.nvidia.com/publication/2023-08_guided-deep-kernel-learning"
+            },
+            {
+                "title": "Bayesian Reparameterization of Reward-Conditioned Reinforcement Learning with Energy-based Models",
+                "link": "https://research.nvidia.com/publication/2023-07_bayesian-reparameterization-reward-conditioned-reinforcement-learning-energy"
+            }
+        ],
+        "Robotics & Autonomous Systems": [
+            {
+                "title": "Imitating Task and Motion Planning with Visuomotor Transformers",
+                "link": "https://research.nvidia.com/index.php/publication/2023-11_imitating-task-and-motion-planning-visuomotor-transformers"
+            },
+            {
+                "title": "Human-In-The-Loop Task and Motion Planning for Imitation Learning",
+                "link": "https://research.nvidia.com/publication/2023-11_human-loop-task-and-motion-planning-imitation-learning"
+            },
+            {
+                "title": "Interpretable Trajectory Prediction for Autonomous Vehicles via Counterfactual Responsibility",
+                "link": "https://research.nvidia.com/publication/2023-10_interpretable-trajectory-prediction-autonomous-vehicles-counterfactual"
+            },
+            {
+                "title": "Sequence-Based Plan Feasibility Prediction for Efficient Task and Motion Planning",
+                "link": "https://research.nvidia.com/index.php/publication/2023-07_sequence-based-plan-feasibility-prediction-efficient-task-and-motion-planning"
+            }
+        ],
+        "VLSI & Chip Design Automation": [
+            {
+                "title": "Novel Transformer Model Based Clustering Method for Standard Cell Design Automation",
+                "link": "https://research.nvidia.com/publication/2024-03_novel-transformer-model-based-clustering-method-standard-cell-design-automation"
+            },
+            {
+                "title": "CircuitOps: An ML Infrastructure Enabling Generative AI for VLSI Circuit Optimization",
+                "link": "https://research.nvidia.com/publication/2023-11_circuitops-ml-infrastructure-enabling-generative-ai-vlsi-circuit-optimization"
+            },
+            {
+                "title": "ChipNeMo: Domain-Adapted LLMs for Chip Design",
+                "link": "https://research.nvidia.com/publication/2023-10_chipnemo-domain-adapted-llms-chip-design"
+            },
+            {
+                "title": "Late Breaking Results: Test Selection For RTL Coverage By Unsupervised Learning From Fast Functional Simulation",
+                "link": "https://research.nvidia.com/publication/2023-07_late-breaking-results-test-selection-rtl-coverage-unsupervised-learning-fast"
+            }
+        ]
+    },
+    "Computer Graphics & Simulation": {
+        "Rendering & Geometry Processing": [
+            {
+                "title": "Flexible Isosurface Extraction for Gradient-Based Mesh Optimization",
+                "link": "https://research.nvidia.com/publication/2023-08_flexible-isosurface-extraction-gradient-based-mesh-optimization"
+            },
+            {
+                "title": "Micro-Mesh Construction",
+                "link": "https://research.nvidia.com/publication/2023-08_micro-mesh-construction"
+            },
+            {
+                "title": "Random-Access Neural Compression of Material Textures",
+                "link": "https://research.nvidia.com/publication/2023-08_random-access-neural-compression-material-textures"
+            }
+        ],
+        "Physics & Character Simulation": [
+            {
+                "title": "Generalizing Shallow Water Simulations with Dispersive Surface Waves",
+                "link": "https://research.nvidia.com/index.php/publication/2023-08_generalizing-shallow-water-simulations-dispersive-surface-waves"
+            },
+            {
+                "title": "Learning Physically Simulated Tennis Players from Broadcast Videos",
+                "link": "https://research.nvidia.com/index.php/publication/2023-08_learning-physically-simulated-tennis-players-broadcast-videos"
+            },
+            {
+                "title": "Interactive Hair Simulation on the GPU Using ADMM",
+                "link": "https://research.nvidia.com/publication/2023-08_interactive-hair-simulation-gpu-using-admm"
+            },
+            {
+                "title": "Synthesizing Physical Character-Scene Interactions",
+                "link": "https://research.nvidia.com/index.php/publication/2023-08_synthesizing-physical-character-scene-interactions"
+            }
+        ],
+        "Advanced Graphics Applications": [
+            {
+                "title": "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling",
+                "link": "https://research.nvidia.com/publication/2023-12_sionna-rt-differentiable-ray-tracing-radio-propagation-modeling"
+            },
+            {
+                "title": "AI-Mediated 3D Video Conferencing",
+                "link": "https://research.nvidia.com/index.php/publication/2023-08_ai-mediated-3d-video-conferencing"
+            }
+        ]
+    },
+    "Scientific Computing & Advanced Systems": {
+        "Numerical Methods & Optimization": [
+            {
+                "title": "Walk on Stars: A Grid-Free Monte Carlo Method for PDEs with Neumann Boundary Conditions",
+                "link": "https://research.nvidia.com/publication/2023-08_walk-stars-grid-free-monte-carlo-method-pdes-neumann-boundary-conditions"
+            },
+            {
+                "title": "Boundary Value Caching for Walk on Spheres",
+                "link": "https://research.nvidia.com/publication/2023-08_boundary-value-caching-walk-spheres"
+            }
+        ],
+        "Telecommunications & Signal Processing": [
+            {
+                "title": "A Neural Receiver for 5G NR Multi-user MIMO",
+                "link": "https://research.nvidia.com/index.php/publication/2023-12_neural-receiver-5g-nr-multi-user-mimo"
+            }
+        ],
+        "Quantum Computing": [
+            {
+                "title": "Graph Neural Networks for Enhanced Decoding of Quantum LDPC Codes",
+                "link": "https://research.nvidia.com/index.php/publication/2023-11_graph-neural-networks-enhanced-decoding-quantum-ldpc-codes"
+            }
+        ]
+    }
+}
+
+categorized_articles = {
+    "Robotics & Autonomous Systems": [
+        ("Meta-Policy Learning over Plan Ensembles for Robust Articulated Object Manipulation", "https://research.nvidia.com/publication/2023-07_meta-policy-learning-over-plan-ensembles-robust-articulated-object-manipulation"),
+        ("Task-Aware Risk Estimation of Perception Failures for Autonomous Vehicles", "https://research.nvidia.com/index.php/publication/2023-07_task-aware-risk-estimation-perception-failures-autonomous-vehicles"),
+        ("Learning Human-to-Robot Handovers from Point Clouds", "https://research.nvidia.com/index.php/publication/2023-06_learning-human-robot-handovers-point-clouds"),
+        ("Learning Autonomous Vehicle Safety Concepts from Demonstrations", "https://research.nvidia.com/publication/2023-05_learning-autonomous-vehicle-safety-concepts-demonstrations"),
+        ("Tree-structured Policy Planning with Learned Behavior Models", "https://research.nvidia.com/publication/2023-05_tree-structured-policy-planning-learned-behavior-models"),
+        ("BITS: Bi-level Imitation for Traffic Simulation", "https://research.nvidia.com/publication/2023-05_bits-bi-level-imitation-traffic-simulation"),
+        ("Global and Reactive Motion Generation with Geometric Fabric Command Sequences", "https://research.nvidia.com/publication/2023-05_global-and-reactive-motion-generation-geometric-fabric-command-sequences"),
+        ("Guided Conditional Diffusion for Controllable Traffic Simulation", "https://research.nvidia.com/publication/2023-05_guided-conditional-diffusion-controllable-traffic-simulation"),
+        ("Expanding the Deployment Envelope of Behavior Prediction via Adaptive Meta-Learning", "https://research.nvidia.com/publication/2023-05_expanding-deployment-envelope-behavior-prediction-adaptive-meta-learning"),
+        ("ProgPrompt: Generating Situated Robot Task Plans Using Large Language Models", "https://research.nvidia.com/publication/2023-05_progprompt-generating-situated-robot-task-plans-using-large-language-models"),
+        ("IndustReal: Transferring Contact-Rich Assembly Tasks from Simulation to Reality", "https://research.nvidia.com/index.php/publication/2023-05_industreal-transferring-contact-rich-assembly-tasks-simulation-reality"),
+        ("CabiNet: Scaling Neural Collision Detection for Object Rearrangement with Procedural Scene Generation", "https://research.nvidia.com/publication/2023-05_cabinet-scaling-neural-collision-detection-object-rearrangement-procedural"),
+        ("Task-Relevant Failure Detection for Trajectory Predictors in Autonomous Vehicles", "https://research.nvidia.com/publication/2022-12_task-relevant-failure-detection-trajectory-predictors-autonomous-vehicles"),
+        ("DiffStack: A Differentiable and Modular Control Stack for Autonomous Vehicles", "https://research.nvidia.com/publication/2022-12_diffstack-differentiable-and-modular-control-stack-autonomous-vehicles"),
+        ("Robust Trajectory Prediction against Adversarial Attacks", "https://research.nvidia.com/publication/2022-12_robust-trajectory-prediction-against-adversarial-attacks"),
+    ],
+    "Computer Vision & Imaging": [
+        ("Global Context Vision Transformers", "https://research.nvidia.com/publication/2023-07_global-context-vision-transformers"),
+        ("Object Pose Estimation with Statistical Guarantees: Conformal Keypoint Detection and Geometric Uncertainty Propagation", "https://research.nvidia.com/publication/2023-06_object-pose-estimation-statistical-guarantees-conformal-keypoint-detection-and"),
+        ("Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models", "https://research.nvidia.com/publication/2023-06_open-vocabulary-panoptic-segmentation-text-image-diffusion-models"),
+        ("Parallel Inversion of Neural Radiance Fields for Robust Pose Estimation", "https://research.nvidia.com/index.php/publication/2023-05_parallel-inversion-neural-radiance-fields-robust-pose-estimation"),
+        ("Subpixel Deblurring of Anti-Aliased Raster Clip Art", "https://research.nvidia.com/index.php/publication/2023-05_subpixel-deblurring-anti-aliased-raster-clip-art"),
+        ("GPViT: A High Resolution Non-Hierarchical Vision Transformer with Group Propagation", "https://research.nvidia.com/publication/2023-05_gpvit-high-resolution-non-hierarchical-vision-transformer-group-propagation"),
+        ("Joint Neural Denoising of Surfaces and Volumes", "https://research.nvidia.com/publication/2023-03_joint-neural-denoising-surfaces-and-volumes"),
+        ("Self-Supervised Pyramid Representation Learning for Multi-Label Visual Analysis and Beyond", "https://research.nvidia.com/publication/2023-01_self-supervised-pyramid-representation-learning-multi-label-visual-analysis-and"),
+    ],
+    "3D Graphics & Neural Rendering": [
+        ("Physics-Informed Optical Kernel Regression Using Complex-valued Neural Fields", "https://research.nvidia.com/publication/2023-07_physics-informed-optical-kernel-regression-using-complex-valued-neural-fields"),
+        ("FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization", "https://research.nvidia.com/publication/2023-06_freenerf-improving-few-shot-neural-rendering-free-frequency-regularization"),
+        ("NeuralField-LDM: Scene Generation with Hierarchical Latent Diffusion Models", "https://research.nvidia.com/publication/2023-06_neuralfield-ldm-scene-generation-hierarchical-latent-diffusion-models"),
+        ("Trace and Pace: Controllable Pedestrian Animation via Guided Trajectory Diffusion", "https://research.nvidia.com/publication/2023-06_trace-and-pace-controllable-pedestrian-animation-guided-trajectory-diffusion"),
+        ("Zero-shot Pose Transfer for Unrigged Stylized 3D Characters", "https://research.nvidia.com/publication/2023-06_zero-shot-pose-transfer-unrigged-stylized-3d-characters"),
+        ("Magic3D: High-Resolution Text-to-3D Content Creation", "https://research.nvidia.com/publication/2023-06_magic3d-high-resolution-text-3d-content-creation"),
+        ("Neuralangelo: High-Fidelity Neural Surface Reconstruction", "https://research.nvidia.com/publication/2023-06_neuralangelo-high-fidelity-neural-surface-reconstruction"),
+        ("CALM: Conditional Adversarial Latent Models for Directable Virtual Characters", "https://research.nvidia.com/publication/2023-05_calm-conditional-adversarial-latent-models-directable-virtual-characters"),
+        ("Real-Time Neural Appearance Models", "https://research.nvidia.com/publication/2023-05_real-time-neural-appearance-models"),
+        ("Recursive Control Variates for Inverse Rendering", "https://research.nvidia.com/publication/2023-05_recursive-control-variates-inverse-rendering"),
+    ],
+    "Generative AI & Image/Video Synthesis": [
+        ("Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models", "https://research.nvidia.com/publication/2023-06_align-your-latents-high-resolution-video-synthesis-latent-diffusion-models"),
+        ("Target-free Text-guided Image Manipulation", "https://research.nvidia.com/publication/2023-02_target-free-text-guided-image-manipulation"),
+        ("Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis", "https://research.nvidia.com/publication/2023-02_frido-feature-pyramid-diffusion-complex-scene-image-synthesis"),
+    ],
+    "Deep Learning Foundations & General AI": [
+        ("Efficient Transformer Inference with Statically Structured Sparse Attention", "https://research.nvidia.com/publication/2023-07_efficient-transformer-inference-statically-structured-sparse-attention"),
+        ("Learning to Initiate and Reason in Event-Driven Cascading Processes", "https://research.nvidia.com/publication/2023-07_learning-initiate-and-reason-event-driven-cascading-processes"),
+        ("Spherical Fourier Neural Operators: Learning Stable Dynamics on the Sphere", "https://research.nvidia.com/publication/2023-06_spherical-fourier-neural-operators-learning-stable-dynamics-sphere"),
+        ("The Best Defense is a Good Offense: Adversarial Augmentation against Adversarial Attacks", "https://research.nvidia.com/publication/2023-05_best-defense-good-offense-adversarial-augmentation-against-adversarial-attacks"),
+        ("Robust and Controllable Object-Centric Learning through Energy-based Models", "https://research.nvidia.com/publication/2023-05_robust-and-controllable-object-centric-learning-through-energy-based-models"),
+        ("Equivariant Architectures for Learning in Deep Weight Spaces", "https://research.nvidia.com/publication/2023-03_equivariant-architectures-learning-deep-weight-spaces"),
+    ],
+    "Reinforcement Learning (Methodology)": [
+        ("Train Hard, Fight Easy: Robust Meta Reinforcement Learning", "https://research.nvidia.com/publication/2023-06_train-hard-fight-easy-robust-meta-reinforcement-learning"),
+        ("Never Worse, Mostly Better: Stable Policy Improvement in Deep Reinforcement Learning", "https://research.nvidia.com/publication/2023-01_never-worse-mostly-better-stable-policy-improvement-deep-reinforcement-learning"),
+    ],
+    "VLSI & Electronic Design Automation (EDA)": [
+        ("DREAM-GAN: Advancing DREAMPlace towards Commercial-Quality using Generative Adversarial Learning", "https://research.nvidia.com/publication/2023-03_dream-gan-advancing-dreamplace-towards-commercial-quality-using-generative"),
+        ("NVCell 2: Routability-Driven Standard Cell Layout in Advanced Nodes with Lattice Graph Routability Model", "https://research.nvidia.com/publication/2023-03_nvcell-2-routability-driven-standard-cell-layout-advanced-nodes-lattice-graph"),
+        ("Reinforcement Learning Guided Detailed Routing for Custom Circuits", "https://research.nvidia.com/publication/2023-03_reinforcement-learning-guided-detailed-routing-custom-circuits"),
+        ("AutoDMP: Automated DREAMPlace-based Macro Placement", "https://research.nvidia.com/publication/2023-03_autodmp-automated-dreamplace-based-macro-placement"),
+        ("Enabling Scalable AI Computational Lithography with Physics-Inspired Models", "https://research.nvidia.com/publication/2023-02_enabling-scalable-ai-computational-lithography-physics-inspired-models"),
+        ("Efficient Arithmetic Block Identification with Graph Learning and Network-flow", "https://research.nvidia.com/publication/2022-12_efficient-arithmetic-block-identification-graph-learning-and-network-flow"),
+    ],
+    "AI Hardware & Accelerators": [
+        ("A 95.6-TOPS/W Deep Learning Inference Accelerator With Per-Vector Scaled 4-bit Quantization in 5 nm", "https://research.nvidia.com/publication/2023-01_956-topsw-deep-learning-inference-accelerator-vector-scaled-4-bit-quantization"),
+    ],
+    "Communication Systems & Signal Processing": [
+        ("Deep Learning-Based Synchronization for Uplink NB-IoT", "https://research.nvidia.com/publication/2022-12_deep-learning-based-synchronization-uplink-nb-iot"),
+        ("Graph Neural Networks for Channel Decoding", "https://research.nvidia.com/index.php/publication/2022-12_graph-neural-networks-channel-decoding"),
+    ],
+}
+
+categorized_articles = {
+    "AI for Hardware Design & Optimization": [
+        ("An Adversarial Active Sampling-based Data Augmentation Framework for Manufacturable Chip Design", "https://research.nvidia.com/publication/2022-12_adversarial-active-sampling-based-data-augmentation-framework-manufacturable"),
+        ("Demystifying Map Space Exploration for NPUs", "https://research.nvidia.com/publication/2022-11_demystifying-map-space-exploration-npus"),
+        ("TransSizer: A Novel Transformer-Based Fast Gate Sizer", "https://research.nvidia.com/publication/2022-10_transsizer-novel-transformer-based-fast-gate-sizer"),
+        ("TAG: Learning Circuit Spatial Embedding from Layouts", "https://research.nvidia.com/publication/2022-10_tag-learning-circuit-spatial-embedding-layouts"),
+        ("Why are Graph Neural Networks Effective for EDA Problems?", "https://research.nvidia.com/publication/2022-10_why-are-graph-neural-networks-effective-eda-problems"),
+        ("Placement Optimization via PPA-Directed Graph Clustering", "https://research.nvidia.com/publication/2022-09_placement-optimization-ppa-directed-graph-clustering"),
+        ("XT-PRAGGMA: Crosstalk Pessimism Reduction Accessible by GPU Gate-level Simulations and Machine Learning", "https://research.nvidia.com/publication/2022-09_xt-praggma-crosstalk-pessimism-reduction-accessible-gpu-gate-level-simulations"),
+        ("Self Adaptive Reconfigurable Arrays (SARA): Learning Flexible GEMM Accelerator Configuration and Mapping-space using ML", "https://research.nvidia.com/publication/2022-08_self-adaptive-reconfigurable-arrays-sara-learning-flexible-gemm-accelerator"),
+        ("A 17–95.6 TOPS/W Deep Learning Inference Accelerator with Per-Vector Scaled 4-bit Quantization for Transformers in 5nm", "https://research.nvidia.com/publication/2022-06_17-956-topsw-deep-learning-inference-accelerator-vector-scaled-4-bit")
+    ],
+    "Generative AI & Content Creation": [
+        ('"This is my unicorn, Fluffy": Personalizing frozen vision-language representations', "https://research.nvidia.com/publication/2022-11_my-unicorn-fluffy-personalizing-frozen-vision-language-representations"),
+        ("Elucidating the Design Space of Diffusion-Based Generative Models", "https://research.nvidia.com/publication/2022-11_elucidating-design-space-diffusion-based-generative-models"),
+        ("LION: Latent Point Diffusion Models for 3D Shape Generation", "https://research.nvidia.com/publication/2022-11_lion-latent-point-diffusion-models-3d-shape-generation"),
+        ("GENIE: Higher-Order Denoising Diffusion Solvers", "https://research.nvidia.com/publication/2022-11_genie-higher-order-denoising-diffusion-solvers"),
+        ("Generative Adversarial Neural Operators", "https://research.nvidia.com/publication/2022-10_generative-adversarial-neural-operators"),
+        ("An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion", "https://research.nvidia.com/publication/2022-08_image-worth-one-word-personalizing-text-image-generation-using-textual"),
+        ("Diffusion Models for Adversarial Purification", "https://research.nvidia.com/publication/2022-07_diffusion-models-adversarial-purification"),
+        ("Polymorphic-GAN: Generating Aligned Samples across Multiple Domains with Learned Morph Maps", "https://research.nvidia.com/index.php/publication/2022-06_polymorphic-gan-generating-aligned-samples-across-multiple-domains-learned"),
+        ("Efficient Geometry-aware 3D Generative Adversarial Networks", "https://research.nvidia.com/index.php/publication/2022-06_efficient-geometry-aware-3d-generative-adversarial-networks"),
+        ("BigDatasetGAN: Synthesizing ImageNet with Pixel-wise Annotations", "https://research.nvidia.com/index.php/publication/2022-06_bigdatasetgan-synthesizing-imagenet-pixel-wise-annotations"),
+        ("StyleGAN-NADA: CLIP-Guided Domain Adaptation of Image Generators", "https://research.nvidia.com/publication/2022-05_stylegan-nada-clip-guided-domain-adaptation-image-generators")
+    ],
+    "Robotics, Motion Planning & Autonomous Systems": [
+        ("Motion Policy Networks", "https://research.nvidia.com/publication/2022-12_motion-policy-networks"),
+        ("Heterogeneous-Agent Trajectory Forecasting Incorporating Class Uncertainty", "https://research.nvidia.com/publication/2022-10_heterogeneous-agent-trajectory-forecasting-incorporating-class-uncertainty"),
+        ("AdvDO: Realistic Adversarial Attacks for Trajectory Prediction", "https://research.nvidia.com/publication/2022-10_advdo-realistic-adversarial-attacks-trajectory-prediction"),
+        ("On Covariate Shift of Latent Confounders in Imitation and Reinforcement Learning", "https://research.nvidia.com/publication/2022-10_covariate-shift-latent-confounders-imitation-and-reinforcement-learning"),
+        ("Correcting Robot Plans with Natural Language Feedback", "https://research.nvidia.com/publication/2022-06_correcting-robot-plans-natural-language-feedback"),
+        ("ScePT: Scene-consistent, Policy-based Trajectory Predictions for Planning", "https://research.nvidia.com/publication/2022-06_scept-scene-consistent-policy-based-trajectory-predictions-planning"),
+        ("Whose Track Is It Anyway? Improving Robustness to Tracking Errors with Affinity-Based Prediction", "https://research.nvidia.com/publication/2022-06_whose-track-it-anyway-improving-robustness-tracking-errors-affinity-based"),
+        ("Injecting Planning-Awareness into Prediction and Detection Evaluation", "https://research.nvidia.com/index.php/publication/2022-06_injecting-planning-awareness-prediction-and-detection-evaluation"),
+        ("MTP: Multi-Hypothesis Tracking and Prediction for Reduced Error Propagation", "https://research.nvidia.com/publication/2022-06_mtp-multi-hypothesis-tracking-and-prediction-reduced-error-propagation"),
+        ("Propagating State Uncertainty Through Trajectory Forecasting", "https://research.nvidia.com/index.php/publication/2022-05_propagating-state-uncertainty-through-trajectory-forecasting"),
+        ("Factory: Fast Contact for Robotic Assembly", "https://research.nvidia.com/publication/2022-05_factory-fast-contact-robotic-assembly"),
+        ("Accelerated Policy Learning with Parallel Differentiable Simulation", "https://research.nvidia.com/publication/2022-05_accelerated-policy-learning-parallel-differentiable-simulation")
+    ],
+    "Computer Vision, Graphics & Extended Reality": [
+        ("Paraphrasing Is All You Need for Novel Object Captioning", "https://research.nvidia.com/publication/2022-11_paraphrasing-all-you-need-novel-object-captioning"),
+        ("SPoVT: Semantic-Prototype Variational Transformer for Dense Point Cloud Semantic Completion", "https://research.nvidia.com/publication/2022-11_spovt-semantic-prototype-variational-transformer-dense-point-cloud-semantic"),
+        ("Detecting Viewer-Perceived Intended Vector Sketch Connectivity", "https://research.nvidia.com/publication/2022-08_detecting-viewer-perceived-intended-vector-sketch-connectivity"),
+        ("Time-multiplexed Neural Holography: A Flexible Framework for Holographic Near-eye Displays with Fast Heavily-quantized Spatial Light Modulators", "https://research.nvidia.com/publication/2022-08_time-multiplexed-neural-holography-flexible-framework-holographic-near-eye"),
+        ("Holographic Glasses for Virtual Reality", "https://research.nvidia.com/index.php/publication/2022-08_holographic-glasses-virtual-reality"),
+        ("Instant Neural Graphics Primitives with a Multiresolution Hash Encoding", "https://research.nvidia.com/index.php/publication/2022-07_instant-neural-graphics-primitives-multiresolution-hash-encoding"),
+        ("Unbiased Inverse Volume Rendering With Differential Trackers", "https://research.nvidia.com/index.php/publication/2022-07_unbiased-inverse-volume-rendering-differential-trackers"),
+        ("GroupViT: Semantic Segmentation Emerges from Text Supervision", "https://research.nvidia.com/publication/2022-06_groupvit-semantic-segmentation-emerges-text-supervision"),
+        ("FreeSOLO: Learning to Segment Objects without Annotations", "https://research.nvidia.com/index.php/publication/2022-06_freesolo-learning-segment-objects-without-annotations")
+    ],
+    "Wireless Communication & Signal Processing": [
+        ("Towards Adaptive Digital Self-Interference Cancellation in Full-Duplex Wireless Transceivers: APSM vs. Neural Networks", "https://research.nvidia.com/publication/2022-10_towards-adaptive-digital-self-interference-cancellation-full-duplex-wireless"),
+        ("GPU-Accelerated Machine Learning in Non-Orthogonal Multiple Access", "https://research.nvidia.com/index.php/publication/2022-08_gpu-accelerated-machine-learning-non-orthogonal-multiple-access"),
+        ("Adaptive Neural Network-based OFDM Receivers", "https://research.nvidia.com/publication/2022-07_adaptive-neural-network-based-ofdm-receivers"),
+        ("GPU-Accelerated Partially Linear Multiuser Detection for 5G and Beyond URLLC Systems", "https://research.nvidia.com/publication/2022-06_gpu-accelerated-partially-linear-multiuser-detection-5g-and-beyond-urllc")
+    ],
+    "Deep Learning Optimization & Fundamentals": [
+        ("HEAT: Hardware-Efficient Automatic Tensor Decomposition for Transformer Compression", "https://research.nvidia.com/publication/2022-12_heat-hardware-efficient-automatic-tensor-decomposition-transformer-compression"),
+        ("LNS-Madam: Low-Precision Training in Logarithmic Number System Using Multiplicative Weight Update", "https://research.nvidia.com/publication/2022-12_lns-madam-low-precision-training-logarithmic-number-system-using-multiplicative"),
+        ("Augmenting Legacy Networks for Flexible Inference.", "https://research.nvidia.com/publication/2022-10_augmenting-legacy-networks-flexible-inference"),
+        ("LANA: Latency Aware Network Acceleration", "https://research.nvidia.com/index.php/publication/2022-10_lana-latency-aware-network-acceleration"),
+        ("Optimal Clipping and Magnitude-aware Differentiation for Improved Quantization-aware Training", "https://research.nvidia.com/publication/2022-07_optimal-clipping-and-magnitude-aware-differentiation-improved-quantization"),
+        ("Optimizing tensor network contraction using reinforcement learning", "https://research.nvidia.com/publication/2022-06_optimizing-tensor-network-contraction-using-reinforcement-learning"),
+        ("MatBuilder: Mastering Sampling Uniformity Over Projections", "https://research.nvidia.com/publication/2022-05_matbuilder-mastering-sampling-uniformity-over-projections"),
+        ("Artificial Neural Networks generated by Low Discrepancy Sequences", "https://research.nvidia.com/publication/2022-05_artificial-neural-networks-generated-low-discrepancy-sequences")
+    ]
+}
+
+categorized_articles = {
+    "Generative Models & Content Creation": [
+        ("Score-Based Generative Modeling with Critically-Damped Langevin Diffusion", "https://research.nvidia.com/publication/2022-03_score-based-generative-modeling-critically-damped-langevin-diffusion"),
+        ("Tackling the Generative Learning Trilemma with Denoising Diffusion GANs", "https://research.nvidia.com/publication/2022-03_tackling-generative-learning-trilemma-denoising-diffusion-gans-0"),
+        ("ATISS: Autoregressive Transformers for Indoor Scene Synthesis", "https://research.nvidia.com/publication/2021-12_atiss-autoregressive-transformers-indoor-scene-synthesis"),
+        ("Alias-Free Generative Adversarial Networks", "https://research.nvidia.com/publication/2021-12_alias-free-generative-adversarial-networks"),
+        ("EditGAN: High-Precision Semantic Image Editing", "https://research.nvidia.com/publication/2021-12_editgan-high-precision-semantic-image-editing"),
+        ("Score-based Generative Modeling in Latent Space", "https://research.nvidia.com/publication/2021-11_score-based-generative-modeling-latent-space"),
+        ("A Contrastive Learning Approach for Training Variational Autoencoder Priors", "https://research.nvidia.com/index.php/publication/2021-11_contrastive-learning-approach-training-variational-autoencoder-priors"),
+        ("Controllable and Compositional Generation with Latent-Space Energy-Based Models", "https://research.nvidia.com/index.php/publication/2021-11_controllable-and-compositional-generation-latent-space-energy-based-models"),
+        ("Don’t Generate Me: Training Differentially Private Generative Models with Sinkhorn Divergence", "https://research.nvidia.com/publication/2021-11_don-t-generate-me-training-differentially-private-generative-models-sinkhorn"),
+        ("Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization", "https://research.nvidia.com/publication/2021-06_semantic-segmentation-generative-models-semi-supervised-learning-and-strong-out"),
+        ("One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing", "https://research.nvidia.com/publication/2021-06_one-shot-free-view-neural-talking-head-synthesis-video-conferencing"),
+        ("VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models", "https://research.nvidia.com/publication/2021-06_vaebm-symbiosis-between-variational-autoencoders-and-energy-based-models")
+    ],
+    "Computer Vision & Graphics": [
+        ("\"This is my unicorn, Fluffy\": Personalizing frozen vision-language representations", "https://research.nvidia.com/publication/2022-04_my-unicorn-fluffy-personalizing-frozen-vision-language-representations"),
+        ("KAMA: 3D Keypoint Aware Body Mesh Articulation", "https://research.nvidia.com/index.php/publication/2021-12_kama-3d-keypoint-aware-body-mesh-articulation"),
+        ("Standard vs. Learning-based Codecs for Real Time Endoscopic Video Transmission", "https://research.nvidia.com/publication/2021-11_standard-vs-learning-based-codecs-real-time-endoscopic-video-transmission"),
+        ("Extracting Triangular 3D Models, Materials, and Lighting From Images", "https://research.nvidia.com/publication/2021-11_extracting-triangular-3d-models-materials-and-lighting-images"),
+        ("Noise-Aware Video Saliency Prediction", "https://research.nvidia.com/publication/2021-11_noise-aware-video-saliency-prediction"),
+        ("Speckle-free holography with partially coherent light sources and camera-in-the-loop calibration", "https://research.nvidia.com/publication/2021-11_speckle-free-holography-partially-coherent-light-sources-and-camera-loop"),
+        ("NeRF-Tex: Neural Reflectance Field Textures", "https://research.nvidia.com/publication/2021-06_nerf-tex-neural-reflectance-field-textures"),
+        ("Neural Scene Graph Rendering", "https://research.nvidia.com/publication/2021-06_neural-scene-graph-rendering"),
+        ("Real-time Neural Radiance Caching for Path Tracing", "https://research.nvidia.com/index.php/publication/2021-06_real-time-neural-radiance-caching-path-tracing"),
+        ("Learning to Track Instances without Video Annotations", "https://research.nvidia.com/publication/2021-06_learning-track-instances-without-video-annotations"),
+        ("Weakly-Supervised Physically Unconstrained Gaze Estimation", "https://research.nvidia.com/publication/2021-06_weakly-supervised-physically-unconstrained-gaze-estimation"),
+        ("Appearance-Driven Automatic 3D Model Simplification", "https://research.nvidia.com/index.php/publication/2021-04_appearance-driven-automatic-3d-model-simplification")
+    ],
+    "Robotics, Control & Simulation": [
+        ("Transform2Act: Learning a Transform-and-Control Policy for Efficient Agent Design", "https://research.nvidia.com/index.php/publication/2022-04_transform2act-learning-transform-and-control-policy-efficient-agent-design"),
+        ("DefGraspSim: Physics-Based Simulation of Grasp Outcomes on 3D Deformable Objects", "https://research.nvidia.com/index.php/publication/2022-03_defgraspsim-physics-based-simulation-grasp-outcomes-3d-deformable-objects"),
+        ("Cooperative Task and Motion Planning for Multi-Arm Assembly Systems", "https://research.nvidia.com/publication/2022-03_cooperative-task-and-motion-planning-multi-arm-assembly-systems"),
+        ("Improve Agents without Retraining: Parallel Tree Search with Off-Policy Correction", "https://research.nvidia.com/publication/2021-10_improve-agents-without-retraining-parallel-tree-search-policy-correction"),
+        ("ACRONYM: A Large-Scale Grasp Dataset Based on Simulation", "https://research.nvidia.com/publication/2021-05_acronym-large-scale-grasp-dataset-based-simulation")
+    ],
+    "Hardware Acceleration & Systems Architecture": [
+        ("Sionna: An Open-Source Library for Next-Generation Physical Layer Research", "https://research.nvidia.com/publication/2022-03_sionna-open-source-library-next-generation-physical-layer-research"),
+        ("Marvel: A Data-Centric Approach for Mapping Deep Learning Operators on Spatial Accelerators", "https://research.nvidia.com/publication/2022-03_marvel-data-centric-approach-mapping-deep-learning-operators-spatial"),
+        ("Reinforcement Learning for Datacenter Congestion Control", "https://research.nvidia.com/publication/2022-02_reinforcement-learning-datacenter-congestion-control"),
+        ("Softermax: Hardware/Software Co-Design of an Efficient Softmax for Transformers", "https://research.nvidia.com/publication/2021-12_softermax-hardwaresoftware-co-design-efficient-softmax-transformers"),
+        ("Union: A Unified HW-SW Co-Design Ecosystem in MLIR for Evaluating Tensor Operations on Spatial Accelerators", "https://research.nvidia.com/publication/2021-09_union-unified-hw-sw-co-design-ecosystem-mlir-evaluating-tensor-operations"),
+        ("SiP-ML: high-bandwidth optical network interconnects for machine learning training", "https://research.nvidia.com/publication/2021-08_sip-ml-high-bandwidth-optical-network-interconnects-machine-learning-training"),
+        ("Simba: scaling deep-learning inference with chiplet-based architecture", "https://research.nvidia.com/publication/2021-05_simba-scaling-deep-learning-inference-chiplet-based-architecture"),
+        ("GAMMA: Exploiting Gustavson’s Algorithm to Accelerate Sparse Matrix Multiplication", "https://research.nvidia.com/publication/2021-04_gamma-exploiting-gustavson-s-algorithm-accelerate-sparse-matrix-multiplication"),
+        ("VS-QUANT: Per-Vector Scaled Quantization for Accurate Low-Precision Neural Network Inference", "https://research.nvidia.com/publication/2021-04_vs-quant-vector-scaled-quantization-accurate-low-precision-neural-network")
+    ],
+    "Neural Network Architectures & Optimization": [
+        ("Efficient Token Mixing for Transformers via Adaptive Fourier Neural Operators", "https://research.nvidia.com/index.php/publication/2022-04_efficient-token-mixing-transformers-adaptive-fourier-neural-operators"),
+        ("Optimizing Selective Protection for CNN Resilience", "https://research.nvidia.com/publication/2021-10_optimizing-selective-protection-cnn-resilience"),
+        ("Compressing 1D Time-Channel Separable Convolutions using Sparse Random Ternary Matrices", "https://research.nvidia.com/publication/2021-08_compressing-1d-time-channel-separable-convolutions-using-sparse-random-ternary")
+    ],
+    "Machine Learning Fundamentals & Algorithms": [
+        ("Known unknowns: Learning novel concepts using exploratory reasoning-by-elimination", "https://research.nvidia.com/publication/2021-07_known-unknowns-learning-novel-concepts-using-exploratory-reasoning-elimination"),
+        ("From local structures to size generalization in graph neural networks", "https://research.nvidia.com/publication/2021-06_local-structures-size-generalization-graph-neural-networks"),
+        ("Controlling graph dynamics with reinforcement learning and graph neural networks", "https://research.nvidia.com/publication/2021-06_controlling-graph-dynamics-reinforcement-learning-and-graph-neural-networks-0"),
+        ("Contrastive Syn-to-Real Generalization", "https://research.nvidia.com/publication/2021-05_contrastive-syn-real-generalization"),
+        ("Auxiliary Learning by Implicit Differentiation", "https://research.nvidia.com/publication/2021-04_auxiliary-learning-implicit-differentiation")
+    ],
+    "Electronic Design Automation (EDA)": [
+        ("DiGamma: Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators", "https://research.nvidia.com/publication/2022-03_digamma-domain-aware-genetic-algorithm-hw-mapping-co-optimization-dnn"),
+        ("Generic Lithography Modeling with Dual-band Optics-Inspired Neural Networks", "https://research.nvidia.com/publication/2022-03_generic-lithography-modeling-dual-band-optics-inspired-neural-networks"),
+        ("Machine Learning and Algorithms: Let Us Team Up for EDA", "https://research.nvidia.com/publication/2022-01_machine-learning-and-algorithms-let-us-team-eda"),
+        ("NVCell: Standard Cell Layout in Advanced Technology Nodes with Reinforcement Learning", "https://research.nvidia.com/index.php/publication/2021-12_nvcell-standard-cell-layout-advanced-technology-nodes-reinforcement-learning"),
+        ("Graph Learning-Based Arithmetic Block Identification", "https://research.nvidia.com/publication/2021-11_graph-learning-based-arithmetic-block-identification")
+    ],
+    "Domain-Specific Applications": [
+        ("Generating and Characterizing Scenarios for Safety Testing of Autonomous Vehicles", "https://research.nvidia.com/publication/2021-07_generating-and-characterizing-scenarios-safety-testing-autonomous-vehicles"),
+        ("Improving Long-read Consensus Sequencing Accuracy with Deep Learning", "https://research.nvidia.com/publication/2021-06_improving-long-read-consensus-sequencing-accuracy-deep-learning")
+    ]
+}
